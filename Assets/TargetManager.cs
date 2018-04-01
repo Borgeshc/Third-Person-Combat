@@ -18,6 +18,8 @@ public class TargetManager : MonoBehaviour
     public Collider[] nearbyTargets;
     Collider targetCollider;
 
+    bool tabTargetActive = true;
+
     private void Update()
     {
         if (!searchingForTarget)
@@ -26,7 +28,10 @@ public class TargetManager : MonoBehaviour
             StartCoroutine(SearchForTarget());
         }
 
-        if(target != null)
+        if(Input.GetKeyDown(KeyCode.E))
+            tabTargetActive = !tabTargetActive;
+
+        if(tabTargetActive && target != null)
         {
             targetRadius = tabTargetRadius;
             if(Input.GetKeyDown(KeyCode.Tab))
@@ -67,7 +72,7 @@ public class TargetManager : MonoBehaviour
             targetCollider = null;
         }
 
-        if(target == null)  //If no target, then target the closest
+        if(target == null || !tabTargetActive)  //If no target, then target the closest
         {
             Transform bestTarget = null;
             bestTarget = FindClosestTarget(nearbyTargets);
