@@ -123,6 +123,8 @@ public class Movement : MonoBehaviour
     {
         isCrouching = false;
         anim.SetBool("IsCrouching", false);
+        capsuleCollider.height = colliderHeight;
+        capsuleCollider.center = colliderCenter;
     }
 
     void Animate()
