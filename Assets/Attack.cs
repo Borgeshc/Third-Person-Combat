@@ -45,9 +45,10 @@ public class Attack : MonoBehaviour
             {
                 Vector3 targetPosition = TargetManager.target.position - transform.position;
 
-                if(targetPosition.magnitude > attackRange)
+                transform.rotation = Quaternion.Lerp(transform.rotation, Quaternion.LookRotation(targetPosition), movement.rotationSpeed * Time.deltaTime);
+
+                if (targetPosition.magnitude > attackRange)
                 {
-                    transform.rotation = Quaternion.Lerp(transform.rotation, Quaternion.LookRotation(targetPosition), movement.rotationSpeed * Time.deltaTime);
                     cc.Move(targetPosition * attackMoveSpeed * Time.deltaTime);
                     anim.SetBool("IsSprinting", true);
                     anim.SetLayerWeight(2, .5f);

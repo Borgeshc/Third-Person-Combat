@@ -1,40 +1,90 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using System;
 
 public class TargetManager : MonoBehaviour
 {
     public static Transform target;
     public float searchFrequency;
-    public float targetRadius;
+    public float meleeTargetRadius;
+    public float tabTargetRadius;
     public LayerMask targetLayer;
-    
+
+    float targetRadius;
+
     bool searchingForTarget;
+
+    public Collider[] nearbyTargets;
+    Collider targetCollider;
 
     private void Update()
     {
-        if(!searchingForTarget)
+        if (!searchingForTarget)
         {
             searchingForTarget = true;
             StartCoroutine(SearchForTarget());
+        }
+
+        if(target != null)
+        {
+            targetRadius = tabTargetRadius;
+            if(Input.GetKeyDown(KeyCode.Tab))
+            {
+                int currentTargetIndex = Array.IndexOf(nearbyTargets, targetCollider);
+                print(currentTargetIndex);
+
+                if (currentTargetIndex >= nearbyTargets.Length - 1)
+                    currentTargetIndex = 0;
+                else
+                    currentTargetIndex++;
+
+                target.GetComponent<Targetable>().RemoveAsTarget();
+
+                target = nearbyTargets[currentTargetIndex].transform;
+                targetCollider = nearbyTargets[currentTargetIndex];
+
+                target.GetComponent<Targetable>().SetAsTarget();
+
+                print("New Target is " + target.name);
+            }
+        }
+        else
+        {
+            targetRadius = meleeTargetRadius;
         }
     }
 
     IEnumerator SearchForTarget()
     {
         print("Searching for target...");
-        Collider[] nearbyTargets = Physics.OverlapSphere(transform.position, targetRadius, targetLayer);
+        nearbyTargets = Physics.OverlapSphere(transform.position, targetRadius, targetLayer);
 
-        if (nearbyTargets.Length <= 0)
-            target = null;
-
-        Transform bestTarget = null;
-        bestTarget = FindClosestTarget(nearbyTargets);
-
-        if(bestTarget)
+        if (nearbyTargets.Length <= 0 && target)
         {
-            print("Target found! " + bestTarget.name);
-            target = bestTarget;
+            target.GetComponent<Targetable>().RemoveAsTarget();
+            target = null;
+            targetCollider = null;
+        }
+
+        if(target == null)  //If no target, then target the closest
+        {
+            Transform bestTarget = null;
+            bestTarget = FindClosestTarget(nearbyTargets);
+
+            if (bestTarget)
+            {
+                print("Target found! " + bestTarget.name);
+
+                if (bestTarget != target)
+                {
+                    if (target)
+                        target.GetComponent<Targetable>().RemoveAsTarget();
+                    target = bestTarget;
+                    targetCollider = target.GetComponent<Collider>();
+                    target.GetComponent<Targetable>().SetAsTarget();
+                }
+            }
         }
 
         yield return new WaitForSeconds(searchFrequency);
