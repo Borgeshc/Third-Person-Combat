@@ -92,10 +92,8 @@ public class Movement : MonoBehaviour
         if (attack.attacking) return;
         Jumping();
 
-
-
-        if (landing) return;
         RecieveInput();
+        if (landing || attack.blocking) return;
         Move();
         Animate();
 
@@ -153,6 +151,7 @@ public class Movement : MonoBehaviour
     {
         if (!Grounded()) return;
 
+        attack.CancelBlock();
         anim.SetBool("IsJumping", true);
         jump = jumpForce;
         isJumping = true;

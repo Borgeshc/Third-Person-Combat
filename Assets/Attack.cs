@@ -14,6 +14,10 @@ public class Attack : MonoBehaviour
 
     [HideInInspector]
     public bool attacking;
+    [HideInInspector]
+    public bool blocking;
+
+    Vector3 targetPosition;
 
     Coroutine combo;
 
@@ -22,6 +26,7 @@ public class Attack : MonoBehaviour
     CharacterController cc;
 
     bool isCharging;
+    bool inRange;
 
     private void Start()
     {
@@ -33,31 +38,49 @@ public class Attack : MonoBehaviour
 
     void Update ()
     {
+        print("InRange = " + inRange);
 		if(Input.GetKeyDown(KeyCode.Mouse0) && !attacking && !movement.isJumping)
         {
             attacking = true;
             StartCoroutine(Attacking());
         }
 
-        if(attacking)
+        if(Input.GetKeyDown(KeyCode.Mouse1) && !attacking && !movement.isJumping)
         {
-            if(TargetManager.target)
+            blocking = true;
+            anim.SetBool("IsBlocking", true);
+        }
+
+        if(Input.GetKeyUp(KeyCode.Mouse1))
+        {
+            blocking = false;
+            anim.SetBool("IsBlocking", false);
+        }
+
+        if (TargetManager.target)
+        {
+            targetPosition = TargetManager.target.position - transform.position;
+
+            if (targetPosition.magnitude > attackRange)
+                inRange = false;
+            else
+                inRange = true;
+        }
+
+        if (attacking)
+        {
+            transform.rotation = Quaternion.Lerp(transform.rotation, Quaternion.LookRotation(targetPosition), movement.rotationSpeed * Time.deltaTime);
+
+            if (!inRange)
             {
-                Vector3 targetPosition = TargetManager.target.position - transform.position;
-
-                transform.rotation = Quaternion.Lerp(transform.rotation, Quaternion.LookRotation(targetPosition), movement.rotationSpeed * Time.deltaTime);
-
-                if (targetPosition.magnitude > attackRange)
-                {
-                    cc.Move(targetPosition * attackMoveSpeed * Time.deltaTime);
-                    anim.SetBool("IsSprinting", true);
-                    anim.SetLayerWeight(2, .5f);
-                }
-                else
-                {
-                    anim.SetLayerWeight(2, 1);
-                    anim.SetBool("IsSprinting", false);
-                }
+                cc.Move(targetPosition * attackMoveSpeed * Time.deltaTime);
+                anim.SetBool("IsSprinting", true);
+                anim.SetLayerWeight(2, .5f);
+            }
+            else
+            {
+                anim.SetLayerWeight(2, 1);
+                anim.SetBool("IsSprinting", false);
             }
         }
 	}
@@ -72,6 +95,38 @@ public class Attack : MonoBehaviour
                 comboCount = 2;
         }
 
+        if(!blocking)
+        {
+            print("Not blocking");
+            RunCombo();
+        }
+        else if(blocking && !inRange)
+        {
+            print("Am blocking,  and not in range");
+            blocking = false;
+            CancelBlock();
+            anim.SetBool("BlockStrike", true);
+        }
+        else if(blocking && inRange)
+        {
+            print("Am blocking,  and i'm in range");
+            CancelBlock();
+            RunCombo();
+        }
+
+        yield return new WaitForSeconds(attackFrequency);
+        anim.SetBool("Attacking", false);
+        anim.SetBool("BlockStrike", false);
+        attacking = false;
+    }
+
+    public void StopAttackAnimation()
+    {
+        anim.SetBool("Attacking", false);
+    }
+
+    void RunCombo()
+    {
         anim.SetBool("Attacking", true);
         anim.SetFloat("Combo", comboCount);
 
@@ -84,16 +139,6 @@ public class Attack : MonoBehaviour
             comboCount = 0;
 
         combo = StartCoroutine(Combo());
-
-
-        yield return new WaitForSeconds(attackFrequency);
-        anim.SetBool("Attacking", false);
-        attacking = false;
-    }
-
-    public void StopAttackAnimation()
-    {
-        anim.SetBool("Attacking", false);
     }
 
     IEnumerator Combo()
@@ -101,5 +146,12 @@ public class Attack : MonoBehaviour
 
         yield return new WaitForSeconds(3);
         comboCount = 0;
+    }
+
+    public void CancelBlock()
+    {
+        print("Cancel block");
+        blocking = false;
+        anim.SetBool("IsBlocking", false);
     }
 }
