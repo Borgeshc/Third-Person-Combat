@@ -80,11 +80,7 @@ public class Movement : MonoBehaviour
         CalculateCCSpeed();
         anim.SetFloat("Speed", ccVelocity);
         anim.SetFloat("AirVelocity", cc.velocity.y);
-
-        //print("cc.velocity === [[ " + cc.velocity.y + " ]] ===");
-
-        print("Is Jumping == " + isJumping);
-
+   
         if (movement == Vector3.zero)
             anim.SetBool("IsMoving", false);
         else
@@ -95,7 +91,9 @@ public class Movement : MonoBehaviour
     {
         if (attack.attacking) return;
         Jumping();
-        print(landing);
+
+
+
         if (landing) return;
         RecieveInput();
         Move();

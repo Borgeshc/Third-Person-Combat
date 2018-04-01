@@ -29,10 +29,7 @@ public class TargetManager : MonoBehaviour
             target = null;
 
         Transform bestTarget = null;
-        foreach(Collider nearbyTarget in nearbyTargets)
-        {
-            bestTarget = CheckDistance(nearbyTarget.transform.gameObject, transform.position);
-        }
+        bestTarget = FindClosestTarget(nearbyTargets);
 
         if(bestTarget)
         {
@@ -44,18 +41,23 @@ public class TargetManager : MonoBehaviour
         searchingForTarget = false;
     }
 
-    Transform CheckDistance(GameObject potentialTarget, Vector3 searchPos)
+    Transform FindClosestTarget(Collider[] potentialTargets)
     {
-        if (!potentialTarget) return null;
-        float closestDistanceSqr = Mathf.Infinity;
-        Vector3 directionToTarget = potentialTarget.transform.position - searchPos;
-        float dSqrToTarget = directionToTarget.sqrMagnitude;
-        if (dSqrToTarget < closestDistanceSqr)
+        Transform closest = null;
+        float distance = Mathf.Infinity;
+        Vector3 position = transform.position;
+        foreach (Collider go in potentialTargets)
         {
-            closestDistanceSqr = dSqrToTarget;
-            return potentialTarget.transform;
+            Vector3 diff = go.transform.position - position;
+            float curDistance = diff.sqrMagnitude;
+
+            if (curDistance < distance)
+            {
+                closest = go.transform;
+                distance = curDistance;
+            }
         }
-        else
-            return null;
+
+        return closest;
     }
 }
