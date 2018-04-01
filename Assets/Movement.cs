@@ -7,6 +7,7 @@ public class Movement : MonoBehaviour
  [Header("Movement Variables")]
     public float movementSpeed;
     public float sprintSpeed;
+    public float rollSpeed;
     public float rotationSpeed;
     public float animationSmoothing = 10f;
 
@@ -34,6 +35,8 @@ public class Movement : MonoBehaviour
     public bool isMoving;
     [HideInInspector]
     public bool isJumping;
+    [HideInInspector]
+    public bool isRolling;
     bool isSprinting;
     bool waiting;
     bool landing;
@@ -71,14 +74,21 @@ public class Movement : MonoBehaviour
 
         isSprinting = Input.GetKey(KeyCode.LeftShift);
 
-        if (Input.GetKeyDown(KeyCode.Space) && !attack.attacking)
+        if (Input.GetKeyDown(KeyCode.Space) && !attack.attacking && !isRolling)
             Jump();
+
+        if (Input.GetKeyDown(KeyCode.LeftAlt) && !attack.attacking && !isJumping)
+        {
+            attack.CancelBlock();
+            isRolling = true;
+            anim.SetTrigger("Roll");
+        }
     }
 
     void Animate()
     {
         CalculateCCSpeed();
-        anim.SetFloat("Speed", ccVelocity);
+        anim.SetFloat("Speed", ccVelocity, animationSmoothing, Time.deltaTime);
         anim.SetFloat("AirVelocity", cc.velocity.y);
    
         if (movement == Vector3.zero)
@@ -87,15 +97,21 @@ public class Movement : MonoBehaviour
             anim.SetBool("IsMoving", true);
     }
 
+
+    public void StopRolling()
+    {
+        isRolling = false;
+    }
+
     private void Update()
     {
         if (attack.attacking) return;
         Jumping();
 
         RecieveInput();
+        Animate();
         if (landing || attack.blocking) return;
         Move();
-        Animate();
 
         if(movement != Vector3.zero)
         {
@@ -111,6 +127,14 @@ public class Movement : MonoBehaviour
 
             isJumping = false;
             landing = true;
+        }
+
+        if(isRolling)
+        {
+            if(movement != Vector3.zero)
+                cc.Move(movement * rollSpeed * Time.deltaTime);
+            else
+                cc.Move(transform.forward * rollSpeed * Time.deltaTime);
         }
     }
 
@@ -138,6 +162,7 @@ public class Movement : MonoBehaviour
         else
             isMoving = false;
 
+        if(!isRolling)
         cc.Move(movement * speed * Time.deltaTime);
     }
 

@@ -38,14 +38,13 @@ public class Attack : MonoBehaviour
 
     void Update ()
     {
-        print("InRange = " + inRange);
-		if(Input.GetKeyDown(KeyCode.Mouse0) && !attacking && !movement.isJumping)
+		if(Input.GetKeyDown(KeyCode.Mouse0) && !attacking && !movement.isJumping && !movement.isRolling)
         {
             attacking = true;
             StartCoroutine(Attacking());
         }
 
-        if(Input.GetKeyDown(KeyCode.Mouse1) && !attacking && !movement.isJumping)
+        if(Input.GetKey(KeyCode.Mouse1) && !attacking && !movement.isJumping && !movement.isRolling)
         {
             blocking = true;
             anim.SetBool("IsBlocking", true);
@@ -69,6 +68,7 @@ public class Attack : MonoBehaviour
 
         if (attacking)
         {
+            if (!TargetManager.target) return;
             transform.rotation = Quaternion.Lerp(transform.rotation, Quaternion.LookRotation(targetPosition), movement.rotationSpeed * Time.deltaTime);
 
             if (!inRange)
@@ -97,19 +97,16 @@ public class Attack : MonoBehaviour
 
         if(!blocking)
         {
-            print("Not blocking");
             RunCombo();
         }
         else if(blocking && !inRange)
         {
-            print("Am blocking,  and not in range");
             blocking = false;
             CancelBlock();
             anim.SetBool("BlockStrike", true);
         }
         else if(blocking && inRange)
         {
-            print("Am blocking,  and i'm in range");
             CancelBlock();
             RunCombo();
         }
@@ -150,7 +147,6 @@ public class Attack : MonoBehaviour
 
     public void CancelBlock()
     {
-        print("Cancel block");
         blocking = false;
         anim.SetBool("IsBlocking", false);
     }

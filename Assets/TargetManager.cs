@@ -50,8 +50,6 @@ public class TargetManager : MonoBehaviour
                 targetCollider = nearbyTargets[currentTargetIndex];
 
                 target.GetComponent<Targetable>().SetAsTarget();
-
-                print("New Target is " + target.name);
             }
         }
         else
@@ -62,7 +60,6 @@ public class TargetManager : MonoBehaviour
 
     IEnumerator SearchForTarget()
     {
-        print("Searching for target...");
         nearbyTargets = Physics.OverlapSphere(transform.position, targetRadius, targetLayer);
 
         if (nearbyTargets.Length <= 0 && target)
@@ -79,7 +76,6 @@ public class TargetManager : MonoBehaviour
 
             if (bestTarget)
             {
-                print("Target found! " + bestTarget.name);
 
                 if (bestTarget != target)
                 {

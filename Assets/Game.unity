@@ -456,8 +456,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   movementSpeed: 10
   sprintSpeed: 15
+  rollSpeed: 20
   rotationSpeed: 150
-  animationSmoothing: 10
+  animationSmoothing: 0.5
   jumpForce: 0.65
   gravity: 1
   distToGround: 1.1
@@ -466,6 +467,7 @@ MonoBehaviour:
     m_Bits: 256
   isMoving: 0
   isJumping: 0
+  isRolling: 0
 --- !u!114 &298142050
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -640,7 +642,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 1050741719961414, guid: 3b7470e8c31a85a4584dce56b8b1e25e, type: 2}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 3b7470e8c31a85a4584dce56b8b1e25e, type: 2}
@@ -981,7 +983,7 @@ Prefab:
       objectReference: {fileID: 9100000, guid: d3fbb61b860eec2409ea78fd0719c930, type: 2}
     - target: {fileID: 1864878375322072, guid: b35b8da5b8c86af4d8d4c97e41e702ba, type: 2}
       propertyPath: m_IsActive
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 114391751310345756, guid: b35b8da5b8c86af4d8d4c97e41e702ba,
         type: 2}
