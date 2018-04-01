@@ -74,7 +74,7 @@ public class Movement : MonoBehaviour
 
         isSprinting = Input.GetKey(KeyCode.LeftShift);
 
-        if (Input.GetKeyDown(KeyCode.Space) && !attack.attacking && !isRolling)
+        if (Input.GetKeyDown(KeyCode.Space) && !attack.attacking && !isRolling && !landing)
             Jump();
 
         if (Input.GetKeyDown(KeyCode.LeftAlt) && !attack.attacking && !isJumping)
