@@ -1,0 +1,222 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!319 &101100000
+AvatarMask:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Name: Male All
+  m_Mask: 01000000010000000100000001000000010000000100000001000000010000000100000000000000000000000000000000000000
+  m_Elements:
+  - m_Path: 
+    m_Weight: 1
+  - m_Path: Male
+    m_Weight: 1
+  - m_Path: Male/Male Pelvis
+    m_Weight: 1
+  - m_Path: Male/Male Pelvis/Male L Thigh
+    m_Weight: 1
+  - m_Path: Male/Male Pelvis/Male L Thigh/Male L Calf
+    m_Weight: 1
+  - m_Path: Male/Male Pelvis/Male L Thigh/Male L Calf/Male L Foot
+    m_Weight: 1
+  - m_Path: Male/Male Pelvis/Male L Thigh/Male L Calf/Male L Foot/Male L Toe0
+    m_Weight: 1
+  - m_Path: Male/Male Pelvis/Male R Thigh
+    m_Weight: 1
+  - m_Path: Male/Male Pelvis/Male R Thigh/Male R Calf
+    m_Weight: 1
+  - m_Path: Male/Male Pelvis/Male R Thigh/Male R Calf/Male R Foot
+    m_Weight: 1
+  - m_Path: Male/Male Pelvis/Male R Thigh/Male R Calf/Male R Foot/Male R Toe0
+    m_Weight: 1
+  - m_Path: Male/Male Pelvis/Male Spine
+    m_Weight: 1
+  - m_Path: Male/Male Pelvis/Male Spine/Male Spine1
+    m_Weight: 1
+  - m_Path: Male/Male Pelvis/Male Spine/Male Spine1/Male L Clavicle
+    m_Weight: 1
+  - m_Path: Male/Male Pelvis/Male Spine/Male Spine1/Male L Clavicle/Male L UpperArm
+    m_Weight: 1
+  - m_Path: Male/Male Pelvis/Male Spine/Male Spine1/Male L Clavicle/Male L UpperArm/Male
+      L Forearm
+    m_Weight: 1
+  - m_Path: Male/Male Pelvis/Male Spine/Male Spine1/Male L Clavicle/Male L UpperArm/Male
+      L Forearm/Male L ForeTwist
+    m_Weight: 1
+  - m_Path: Male/Male Pelvis/Male Spine/Male Spine1/Male L Clavicle/Male L UpperArm/Male
+      L Forearm/Male L Hand
+    m_Weight: 1
+  - m_Path: Male/Male Pelvis/Male Spine/Male Spine1/Male L Clavicle/Male L UpperArm/Male
+      L Forearm/Male L Hand/Male L Finger0
+    m_Weight: 1
+  - m_Path: Male/Male Pelvis/Male Spine/Male Spine1/Male L Clavicle/Male L UpperArm/Male
+      L Forearm/Male L Hand/Male L Finger0/Male L Finger01
+    m_Weight: 1
+  - m_Path: Male/Male Pelvis/Male Spine/Male Spine1/Male L Clavicle/Male L UpperArm/Male
+      L Forearm/Male L Hand/Male L Finger0/Male L Finger01/Male L Finger02
+    m_Weight: 1
+  - m_Path: Male/Male Pelvis/Male Spine/Male Spine1/Male L Clavicle/Male L UpperArm/Male
+      L Forearm/Male L Hand/Male L Finger1
+    m_Weight: 1
+  - m_Path: Male/Male Pelvis/Male Spine/Male Spine1/Male L Clavicle/Male L UpperArm/Male
+      L Forearm/Male L Hand/Male L Finger1/Male L Finger11
+    m_Weight: 1
+  - m_Path: Male/Male Pelvis/Male Spine/Male Spine1/Male L Clavicle/Male L UpperArm/Male
+      L Forearm/Male L Hand/Male L Finger1/Male L Finger11/Male L Finger12
+    m_Weight: 1
+  - m_Path: Male/Male Pelvis/Male Spine/Male Spine1/Male L Clavicle/Male L UpperArm/Male
+      L Forearm/Male L Hand/Male L Finger2
+    m_Weight: 1
+  - m_Path: Male/Male Pelvis/Male Spine/Male Spine1/Male L Clavicle/Male L UpperArm/Male
+      L Forearm/Male L Hand/Male L Finger2/Male L Finger21
+    m_Weight: 1
+  - m_Path: Male/Male Pelvis/Male Spine/Male Spine1/Male L Clavicle/Male L UpperArm/Male
+      L Forearm/Male L Hand/Male L Finger2/Male L Finger21/Male L Finger22
+    m_Weight: 1
+  - m_Path: Male/Male Pelvis/Male Spine/Male Spine1/Male L Clavicle/Male L UpperArm/Male
+      L Forearm/Male L Hand/Male L Finger3
+    m_Weight: 1
+  - m_Path: Male/Male Pelvis/Male Spine/Male Spine1/Male L Clavicle/Male L UpperArm/Male
+      L Forearm/Male L Hand/Male L Finger3/Male L Finger31
+    m_Weight: 1
+  - m_Path: Male/Male Pelvis/Male Spine/Male Spine1/Male L Clavicle/Male L UpperArm/Male
+      L Forearm/Male L Hand/Male L Finger3/Male L Finger31/Male L Finger32
+    m_Weight: 1
+  - m_Path: Male/Male Pelvis/Male Spine/Male Spine1/Male L Clavicle/Male L UpperArm/Male
+      L Forearm/Male L Hand/Male L Finger4
+    m_Weight: 1
+  - m_Path: Male/Male Pelvis/Male Spine/Male Spine1/Male L Clavicle/Male L UpperArm/Male
+      L Forearm/Male L Hand/Male L Finger4/Male L Finger41
+    m_Weight: 1
+  - m_Path: Male/Male Pelvis/Male Spine/Male Spine1/Male L Clavicle/Male L UpperArm/Male
+      L Forearm/Male L Hand/Male L Finger4/Male L Finger41/Male L Finger42
+    m_Weight: 1
+  - m_Path: Male/Male Pelvis/Male Spine/Male Spine1/Male Neck
+    m_Weight: 1
+  - m_Path: Male/Male Pelvis/Male Spine/Male Spine1/Male Neck/Male Head
+    m_Weight: 1
+  - m_Path: Male/Male Pelvis/Male Spine/Male Spine1/Male Neck/Male Head/Eye L
+    m_Weight: 1
+  - m_Path: Male/Male Pelvis/Male Spine/Male Spine1/Male Neck/Male Head/Eye R
+    m_Weight: 1
+  - m_Path: Male/Male Pelvis/Male Spine/Male Spine1/Male Neck/Male Head/Hair Mesh
+    m_Weight: 1
+  - m_Path: Male/Male Pelvis/Male Spine/Male Spine1/Male Neck/Male Head/Male Hair
+      Back L
+    m_Weight: 1
+  - m_Path: Male/Male Pelvis/Male Spine/Male Spine1/Male Neck/Male Head/Male Hair
+      Back R
+    m_Weight: 1
+  - m_Path: Male/Male Pelvis/Male Spine/Male Spine1/Male Neck/Male Head/Male Hair
+      Front
+    m_Weight: 1
+  - m_Path: Male/Male Pelvis/Male Spine/Male Spine1/Male Neck/Male Head/Male Hair
+      Side L
+    m_Weight: 1
+  - m_Path: Male/Male Pelvis/Male Spine/Male Spine1/Male Neck/Male Head/Male Hair
+      Side R
+    m_Weight: 1
+  - m_Path: Male/Male Pelvis/Male Spine/Male Spine1/Male Neck/Male Head/Male Jaw
+    m_Weight: 1
+  - m_Path: Male/Male Pelvis/Male Spine/Male Spine1/Male Neck/Male Head/Male Jaw/Male
+      L LowerLip
+    m_Weight: 1
+  - m_Path: Male/Male Pelvis/Male Spine/Male Spine1/Male Neck/Male Head/Male Jaw/Male
+      LC LowerLip
+    m_Weight: 1
+  - m_Path: Male/Male Pelvis/Male Spine/Male Spine1/Male Neck/Male Head/Male Jaw/Male
+      R LowerLip
+    m_Weight: 1
+  - m_Path: Male/Male Pelvis/Male Spine/Male Spine1/Male Neck/Male Head/Male Jaw/Male
+      RC LowerLip
+    m_Weight: 1
+  - m_Path: Male/Male Pelvis/Male Spine/Male Spine1/Male Neck/Male Head/Male L Eyebrow
+    m_Weight: 1
+  - m_Path: Male/Male Pelvis/Male Spine/Male Spine1/Male Neck/Male Head/Male L Lower
+      Eyelid
+    m_Weight: 1
+  - m_Path: Male/Male Pelvis/Male Spine/Male Spine1/Male Neck/Male Head/Male L Upper
+      Eyelid
+    m_Weight: 1
+  - m_Path: Male/Male Pelvis/Male Spine/Male Spine1/Male Neck/Male Head/Male L UpperLip
+    m_Weight: 1
+  - m_Path: Male/Male Pelvis/Male Spine/Male Spine1/Male Neck/Male Head/Male LC UpperLip
+    m_Weight: 1
+  - m_Path: Male/Male Pelvis/Male Spine/Male Spine1/Male Neck/Male Head/Male R Eyebrow
+    m_Weight: 1
+  - m_Path: Male/Male Pelvis/Male Spine/Male Spine1/Male Neck/Male Head/Male R Lower
+      Eyelid
+    m_Weight: 1
+  - m_Path: Male/Male Pelvis/Male Spine/Male Spine1/Male Neck/Male Head/Male R Upper
+      Eyelid
+    m_Weight: 1
+  - m_Path: Male/Male Pelvis/Male Spine/Male Spine1/Male Neck/Male Head/Male R UpperLip
+    m_Weight: 1
+  - m_Path: Male/Male Pelvis/Male Spine/Male Spine1/Male Neck/Male Head/Male RC UpperLip
+    m_Weight: 1
+  - m_Path: Male/Male Pelvis/Male Spine/Male Spine1/Male Neck/Male Head/Male Tongue
+    m_Weight: 1
+  - m_Path: Male/Male Pelvis/Male Spine/Male Spine1/Male Neck/Male Head/Male Tongue/Male
+      Tongue02
+    m_Weight: 1
+  - m_Path: Male/Male Pelvis/Male Spine/Male Spine1/Male R Clavicle
+    m_Weight: 1
+  - m_Path: Male/Male Pelvis/Male Spine/Male Spine1/Male R Clavicle/Male R UpperArm
+    m_Weight: 1
+  - m_Path: Male/Male Pelvis/Male Spine/Male Spine1/Male R Clavicle/Male R UpperArm/Male
+      R Forearm
+    m_Weight: 1
+  - m_Path: Male/Male Pelvis/Male Spine/Male Spine1/Male R Clavicle/Male R UpperArm/Male
+      R Forearm/Male R ForeTwist
+    m_Weight: 1
+  - m_Path: Male/Male Pelvis/Male Spine/Male Spine1/Male R Clavicle/Male R UpperArm/Male
+      R Forearm/Male R Hand
+    m_Weight: 1
+  - m_Path: Male/Male Pelvis/Male Spine/Male Spine1/Male R Clavicle/Male R UpperArm/Male
+      R Forearm/Male R Hand/Male R Finger0
+    m_Weight: 1
+  - m_Path: Male/Male Pelvis/Male Spine/Male Spine1/Male R Clavicle/Male R UpperArm/Male
+      R Forearm/Male R Hand/Male R Finger0/Male R Finger01
+    m_Weight: 1
+  - m_Path: Male/Male Pelvis/Male Spine/Male Spine1/Male R Clavicle/Male R UpperArm/Male
+      R Forearm/Male R Hand/Male R Finger0/Male R Finger01/Male R Finger02
+    m_Weight: 1
+  - m_Path: Male/Male Pelvis/Male Spine/Male Spine1/Male R Clavicle/Male R UpperArm/Male
+      R Forearm/Male R Hand/Male R Finger1
+    m_Weight: 1
+  - m_Path: Male/Male Pelvis/Male Spine/Male Spine1/Male R Clavicle/Male R UpperArm/Male
+      R Forearm/Male R Hand/Male R Finger1/Male R Finger11
+    m_Weight: 1
+  - m_Path: Male/Male Pelvis/Male Spine/Male Spine1/Male R Clavicle/Male R UpperArm/Male
+      R Forearm/Male R Hand/Male R Finger1/Male R Finger11/Male R Finger12
+    m_Weight: 1
+  - m_Path: Male/Male Pelvis/Male Spine/Male Spine1/Male R Clavicle/Male R UpperArm/Male
+      R Forearm/Male R Hand/Male R Finger2
+    m_Weight: 1
+  - m_Path: Male/Male Pelvis/Male Spine/Male Spine1/Male R Clavicle/Male R UpperArm/Male
+      R Forearm/Male R Hand/Male R Finger2/Male R Finger21
+    m_Weight: 1
+  - m_Path: Male/Male Pelvis/Male Spine/Male Spine1/Male R Clavicle/Male R UpperArm/Male
+      R Forearm/Male R Hand/Male R Finger2/Male R Finger21/Male R Finger22
+    m_Weight: 1
+  - m_Path: Male/Male Pelvis/Male Spine/Male Spine1/Male R Clavicle/Male R UpperArm/Male
+      R Forearm/Male R Hand/Male R Finger3
+    m_Weight: 1
+  - m_Path: Male/Male Pelvis/Male Spine/Male Spine1/Male R Clavicle/Male R UpperArm/Male
+      R Forearm/Male R Hand/Male R Finger3/Male R Finger31
+    m_Weight: 1
+  - m_Path: Male/Male Pelvis/Male Spine/Male Spine1/Male R Clavicle/Male R UpperArm/Male
+      R Forearm/Male R Hand/Male R Finger3/Male R Finger31/Male R Finger32
+    m_Weight: 1
+  - m_Path: Male/Male Pelvis/Male Spine/Male Spine1/Male R Clavicle/Male R UpperArm/Male
+      R Forearm/Male R Hand/Male R Finger4
+    m_Weight: 1
+  - m_Path: Male/Male Pelvis/Male Spine/Male Spine1/Male R Clavicle/Male R UpperArm/Male
+      R Forearm/Male R Hand/Male R Finger4/Male R Finger41
+    m_Weight: 1
+  - m_Path: Male/Male Pelvis/Male Spine/Male Spine1/Male R Clavicle/Male R UpperArm/Male
+      R Forearm/Male R Hand/Male R Finger4/Male R Finger41/Male R Finger42
+    m_Weight: 1
+  - m_Path: Male Casual Mesh
+    m_Weight: 0

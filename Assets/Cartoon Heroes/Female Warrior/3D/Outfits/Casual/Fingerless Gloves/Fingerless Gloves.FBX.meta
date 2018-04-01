@@ -1,0 +1,171 @@
+fileFormatVersion: 2
+guid: 6bba471e022281146b121ef8e6299f1d
+timeCreated: 1504638120
+licenseType: Store
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: Female
+    100002: Female L Clavicle
+    100004: Female L Finger0
+    100006: Female L Finger01
+    100008: Female L Finger02
+    100010: Female L Finger1
+    100012: Female L Finger11
+    100014: Female L Finger12
+    100016: Female L Finger2
+    100018: Female L Finger21
+    100020: Female L Finger22
+    100022: Female L Finger3
+    100024: Female L Finger31
+    100026: Female L Finger32
+    100028: Female L Finger4
+    100030: Female L Finger41
+    100032: Female L Finger42
+    100034: Female L Forearm
+    100036: Female L ForeTwist
+    100038: Female L Hand
+    100040: Female L UpperArm
+    100042: Female Pelvis
+    100044: Female R Clavicle
+    100046: Female R Finger0
+    100048: Female R Finger01
+    100050: Female R Finger02
+    100052: Female R Finger1
+    100054: Female R Finger11
+    100056: Female R Finger12
+    100058: Female R Finger2
+    100060: Female R Finger21
+    100062: Female R Finger22
+    100064: Female R Finger3
+    100066: Female R Finger31
+    100068: Female R Finger32
+    100070: Female R Finger4
+    100072: Female R Finger41
+    100074: Female R Finger42
+    100076: Female R Forearm
+    100078: Female R ForeTwist
+    100080: Female R Hand
+    100082: Female R UpperArm
+    100084: Female Spine
+    100086: Female Spine1
+    100088: Fingerless Gloves
+    100090: //RootNode
+    400000: Female
+    400002: Female L Clavicle
+    400004: Female L Finger0
+    400006: Female L Finger01
+    400008: Female L Finger02
+    400010: Female L Finger1
+    400012: Female L Finger11
+    400014: Female L Finger12
+    400016: Female L Finger2
+    400018: Female L Finger21
+    400020: Female L Finger22
+    400022: Female L Finger3
+    400024: Female L Finger31
+    400026: Female L Finger32
+    400028: Female L Finger4
+    400030: Female L Finger41
+    400032: Female L Finger42
+    400034: Female L Forearm
+    400036: Female L ForeTwist
+    400038: Female L Hand
+    400040: Female L UpperArm
+    400042: Female Pelvis
+    400044: Female R Clavicle
+    400046: Female R Finger0
+    400048: Female R Finger01
+    400050: Female R Finger02
+    400052: Female R Finger1
+    400054: Female R Finger11
+    400056: Female R Finger12
+    400058: Female R Finger2
+    400060: Female R Finger21
+    400062: Female R Finger22
+    400064: Female R Finger3
+    400066: Female R Finger31
+    400068: Female R Finger32
+    400070: Female R Finger4
+    400072: Female R Finger41
+    400074: Female R Finger42
+    400076: Female R Forearm
+    400078: Female R ForeTwist
+    400080: Female R Hand
+    400082: Female R UpperArm
+    400084: Female Spine
+    400086: Female Spine1
+    400088: //RootNode
+    400090: Fingerless Gloves
+    4300000: Fingerless Gloves
+    7400000: Take 001
+    9500000: //RootNode
+    13700000: Fingerless Gloves
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+  importAnimation: 0
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

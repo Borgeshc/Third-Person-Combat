@@ -1,0 +1,171 @@
+fileFormatVersion: 2
+guid: bd6082fb5db25914d960db58d4d6bbbe
+timeCreated: 1503095567
+licenseType: Store
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: //RootNode
+    100002: Gloves
+    100004: Male
+    100006: Male L Clavicle
+    100008: Male L Finger0
+    100010: Male L Finger01
+    100012: Male L Finger02
+    100014: Male L Finger1
+    100016: Male L Finger11
+    100018: Male L Finger12
+    100020: Male L Finger2
+    100022: Male L Finger21
+    100024: Male L Finger22
+    100026: Male L Finger3
+    100028: Male L Finger31
+    100030: Male L Finger32
+    100032: Male L Finger4
+    100034: Male L Finger41
+    100036: Male L Finger42
+    100038: Male L Forearm
+    100040: Male L ForeTwist
+    100042: Male L Hand
+    100044: Male L UpperArm
+    100046: Male Pelvis
+    100048: Male R Clavicle
+    100050: Male R Finger0
+    100052: Male R Finger01
+    100054: Male R Finger02
+    100056: Male R Finger1
+    100058: Male R Finger11
+    100060: Male R Finger12
+    100062: Male R Finger2
+    100064: Male R Finger21
+    100066: Male R Finger22
+    100068: Male R Finger3
+    100070: Male R Finger31
+    100072: Male R Finger32
+    100074: Male R Finger4
+    100076: Male R Finger41
+    100078: Male R Finger42
+    100080: Male R Forearm
+    100082: Male R ForeTwist
+    100084: Male R Hand
+    100086: Male R UpperArm
+    100088: Male Spine
+    100090: Male Spine1
+    400000: //RootNode
+    400002: Gloves
+    400004: Male
+    400006: Male L Clavicle
+    400008: Male L Finger0
+    400010: Male L Finger01
+    400012: Male L Finger02
+    400014: Male L Finger1
+    400016: Male L Finger11
+    400018: Male L Finger12
+    400020: Male L Finger2
+    400022: Male L Finger21
+    400024: Male L Finger22
+    400026: Male L Finger3
+    400028: Male L Finger31
+    400030: Male L Finger32
+    400032: Male L Finger4
+    400034: Male L Finger41
+    400036: Male L Finger42
+    400038: Male L Forearm
+    400040: Male L ForeTwist
+    400042: Male L Hand
+    400044: Male L UpperArm
+    400046: Male Pelvis
+    400048: Male R Clavicle
+    400050: Male R Finger0
+    400052: Male R Finger01
+    400054: Male R Finger02
+    400056: Male R Finger1
+    400058: Male R Finger11
+    400060: Male R Finger12
+    400062: Male R Finger2
+    400064: Male R Finger21
+    400066: Male R Finger22
+    400068: Male R Finger3
+    400070: Male R Finger31
+    400072: Male R Finger32
+    400074: Male R Finger4
+    400076: Male R Finger41
+    400078: Male R Finger42
+    400080: Male R Forearm
+    400082: Male R ForeTwist
+    400084: Male R Hand
+    400086: Male R UpperArm
+    400088: Male Spine
+    400090: Male Spine1
+    4300000: Gloves
+    7400000: Take 001
+    9500000: //RootNode
+    13700000: Gloves
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+  importAnimation: 0
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -1,0 +1,247 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!319 &101100000
+AvatarMask:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Name: Female Face
+  m_Mask: 00000000000000000100000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+  m_Elements:
+  - m_Path: 
+    m_Weight: 1
+  - m_Path: Belt
+    m_Weight: 0
+  - m_Path: Female
+    m_Weight: 0
+  - m_Path: Female/Female Footsteps
+    m_Weight: 0
+  - m_Path: Female/Female Pelvis
+    m_Weight: 0
+  - m_Path: Female/Female Pelvis/Female L Thigh
+    m_Weight: 0
+  - m_Path: Female/Female Pelvis/Female L Thigh/Female L Calf
+    m_Weight: 0
+  - m_Path: Female/Female Pelvis/Female L Thigh/Female L Calf/Female L Foot
+    m_Weight: 0
+  - m_Path: Female/Female Pelvis/Female L Thigh/Female L Calf/Female L Foot/Female
+      L Toe0
+    m_Weight: 0
+  - m_Path: Female/Female Pelvis/Female R Thigh
+    m_Weight: 0
+  - m_Path: Female/Female Pelvis/Female R Thigh/Female R Calf
+    m_Weight: 0
+  - m_Path: Female/Female Pelvis/Female R Thigh/Female R Calf/Female R Foot
+    m_Weight: 0
+  - m_Path: Female/Female Pelvis/Female R Thigh/Female R Calf/Female R Foot/Female
+      R Toe0
+    m_Weight: 0
+  - m_Path: Female/Female Pelvis/Female Spine
+    m_Weight: 0
+  - m_Path: Female/Female Pelvis/Female Spine/Female Spine1
+    m_Weight: 0
+  - m_Path: Female/Female Pelvis/Female Spine/Female Spine1/Female L Clavicle
+    m_Weight: 0
+  - m_Path: Female/Female Pelvis/Female Spine/Female Spine1/Female L Clavicle/Female
+      L UpperArm
+    m_Weight: 0
+  - m_Path: Female/Female Pelvis/Female Spine/Female Spine1/Female L Clavicle/Female
+      L UpperArm/Female L Forearm
+    m_Weight: 0
+  - m_Path: Female/Female Pelvis/Female Spine/Female Spine1/Female L Clavicle/Female
+      L UpperArm/Female L Forearm/Female L ForeTwist
+    m_Weight: 0
+  - m_Path: Female/Female Pelvis/Female Spine/Female Spine1/Female L Clavicle/Female
+      L UpperArm/Female L Forearm/Female L Hand
+    m_Weight: 0
+  - m_Path: Female/Female Pelvis/Female Spine/Female Spine1/Female L Clavicle/Female
+      L UpperArm/Female L Forearm/Female L Hand/Female L Finger0
+    m_Weight: 0
+  - m_Path: Female/Female Pelvis/Female Spine/Female Spine1/Female L Clavicle/Female
+      L UpperArm/Female L Forearm/Female L Hand/Female L Finger0/Female L Finger01
+    m_Weight: 0
+  - m_Path: Female/Female Pelvis/Female Spine/Female Spine1/Female L Clavicle/Female
+      L UpperArm/Female L Forearm/Female L Hand/Female L Finger0/Female L Finger01/Female
+      L Finger02
+    m_Weight: 0
+  - m_Path: Female/Female Pelvis/Female Spine/Female Spine1/Female L Clavicle/Female
+      L UpperArm/Female L Forearm/Female L Hand/Female L Finger1
+    m_Weight: 0
+  - m_Path: Female/Female Pelvis/Female Spine/Female Spine1/Female L Clavicle/Female
+      L UpperArm/Female L Forearm/Female L Hand/Female L Finger1/Female L Finger11
+    m_Weight: 0
+  - m_Path: Female/Female Pelvis/Female Spine/Female Spine1/Female L Clavicle/Female
+      L UpperArm/Female L Forearm/Female L Hand/Female L Finger1/Female L Finger11/Female
+      L Finger12
+    m_Weight: 0
+  - m_Path: Female/Female Pelvis/Female Spine/Female Spine1/Female L Clavicle/Female
+      L UpperArm/Female L Forearm/Female L Hand/Female L Finger2
+    m_Weight: 0
+  - m_Path: Female/Female Pelvis/Female Spine/Female Spine1/Female L Clavicle/Female
+      L UpperArm/Female L Forearm/Female L Hand/Female L Finger2/Female L Finger21
+    m_Weight: 0
+  - m_Path: Female/Female Pelvis/Female Spine/Female Spine1/Female L Clavicle/Female
+      L UpperArm/Female L Forearm/Female L Hand/Female L Finger2/Female L Finger21/Female
+      L Finger22
+    m_Weight: 0
+  - m_Path: Female/Female Pelvis/Female Spine/Female Spine1/Female L Clavicle/Female
+      L UpperArm/Female L Forearm/Female L Hand/Female L Finger3
+    m_Weight: 0
+  - m_Path: Female/Female Pelvis/Female Spine/Female Spine1/Female L Clavicle/Female
+      L UpperArm/Female L Forearm/Female L Hand/Female L Finger3/Female L Finger31
+    m_Weight: 0
+  - m_Path: Female/Female Pelvis/Female Spine/Female Spine1/Female L Clavicle/Female
+      L UpperArm/Female L Forearm/Female L Hand/Female L Finger3/Female L Finger31/Female
+      L Finger32
+    m_Weight: 0
+  - m_Path: Female/Female Pelvis/Female Spine/Female Spine1/Female L Clavicle/Female
+      L UpperArm/Female L Forearm/Female L Hand/Female L Finger4
+    m_Weight: 0
+  - m_Path: Female/Female Pelvis/Female Spine/Female Spine1/Female L Clavicle/Female
+      L UpperArm/Female L Forearm/Female L Hand/Female L Finger4/Female L Finger41
+    m_Weight: 0
+  - m_Path: Female/Female Pelvis/Female Spine/Female Spine1/Female L Clavicle/Female
+      L UpperArm/Female L Forearm/Female L Hand/Female L Finger4/Female L Finger41/Female
+      L Finger42
+    m_Weight: 0
+  - m_Path: Female/Female Pelvis/Female Spine/Female Spine1/Female Neck
+    m_Weight: 0
+  - m_Path: Female/Female Pelvis/Female Spine/Female Spine1/Female Neck/Female Head
+    m_Weight: 0
+  - m_Path: Female/Female Pelvis/Female Spine/Female Spine1/Female Neck/Female Head/Eye
+      L
+    m_Weight: 1
+  - m_Path: Female/Female Pelvis/Female Spine/Female Spine1/Female Neck/Female Head/Eye
+      R
+    m_Weight: 1
+  - m_Path: Female/Female Pelvis/Female Spine/Female Spine1/Female Neck/Female Head/Female
+      Hair Back
+    m_Weight: 1
+  - m_Path: Female/Female Pelvis/Female Spine/Female Spine1/Female Neck/Female Head/Female
+      Hair Back/Female Hair Back02
+    m_Weight: 1
+  - m_Path: Female/Female Pelvis/Female Spine/Female Spine1/Female Neck/Female Head/Female
+      Hair Front
+    m_Weight: 1
+  - m_Path: Female/Female Pelvis/Female Spine/Female Spine1/Female Neck/Female Head/Female
+      Jaw
+    m_Weight: 1
+  - m_Path: Female/Female Pelvis/Female Spine/Female Spine1/Female Neck/Female Head/Female
+      Jaw/Female L LowerLip
+    m_Weight: 1
+  - m_Path: Female/Female Pelvis/Female Spine/Female Spine1/Female Neck/Female Head/Female
+      Jaw/Female LC LowerLip
+    m_Weight: 1
+  - m_Path: Female/Female Pelvis/Female Spine/Female Spine1/Female Neck/Female Head/Female
+      Jaw/Female R LowerLip
+    m_Weight: 1
+  - m_Path: Female/Female Pelvis/Female Spine/Female Spine1/Female Neck/Female Head/Female
+      Jaw/Female RC LowerLip
+    m_Weight: 1
+  - m_Path: Female/Female Pelvis/Female Spine/Female Spine1/Female Neck/Female Head/Female
+      L Eyebrow
+    m_Weight: 1
+  - m_Path: Female/Female Pelvis/Female Spine/Female Spine1/Female Neck/Female Head/Female
+      L Lower Eyelid
+    m_Weight: 1
+  - m_Path: Female/Female Pelvis/Female Spine/Female Spine1/Female Neck/Female Head/Female
+      L Upper Eyelid
+    m_Weight: 1
+  - m_Path: Female/Female Pelvis/Female Spine/Female Spine1/Female Neck/Female Head/Female
+      L UpperLip
+    m_Weight: 1
+  - m_Path: Female/Female Pelvis/Female Spine/Female Spine1/Female Neck/Female Head/Female
+      LC UpperLip
+    m_Weight: 1
+  - m_Path: Female/Female Pelvis/Female Spine/Female Spine1/Female Neck/Female Head/Female
+      R Eyebrow
+    m_Weight: 1
+  - m_Path: Female/Female Pelvis/Female Spine/Female Spine1/Female Neck/Female Head/Female
+      R Lower Eyelid
+    m_Weight: 1
+  - m_Path: Female/Female Pelvis/Female Spine/Female Spine1/Female Neck/Female Head/Female
+      R Upper Eyelid
+    m_Weight: 1
+  - m_Path: Female/Female Pelvis/Female Spine/Female Spine1/Female Neck/Female Head/Female
+      R UpperLip
+    m_Weight: 1
+  - m_Path: Female/Female Pelvis/Female Spine/Female Spine1/Female Neck/Female Head/Female
+      RC UpperLip
+    m_Weight: 1
+  - m_Path: Female/Female Pelvis/Female Spine/Female Spine1/Female Neck/Female Head/Female
+      Tongue
+    m_Weight: 1
+  - m_Path: Female/Female Pelvis/Female Spine/Female Spine1/Female Neck/Female Head/Female
+      Tongue/Female Tongue02
+    m_Weight: 1
+  - m_Path: Female/Female Pelvis/Female Spine/Female Spine1/Female Neck/Female Head/Female
+      Warrior Hair
+    m_Weight: 1
+  - m_Path: Female/Female Pelvis/Female Spine/Female Spine1/Female R Clavicle
+    m_Weight: 0
+  - m_Path: Female/Female Pelvis/Female Spine/Female Spine1/Female R Clavicle/Female
+      R UpperArm
+    m_Weight: 0
+  - m_Path: Female/Female Pelvis/Female Spine/Female Spine1/Female R Clavicle/Female
+      R UpperArm/Female R Forearm
+    m_Weight: 0
+  - m_Path: Female/Female Pelvis/Female Spine/Female Spine1/Female R Clavicle/Female
+      R UpperArm/Female R Forearm/Female R ForeTwist
+    m_Weight: 0
+  - m_Path: Female/Female Pelvis/Female Spine/Female Spine1/Female R Clavicle/Female
+      R UpperArm/Female R Forearm/Female R Hand
+    m_Weight: 0
+  - m_Path: Female/Female Pelvis/Female Spine/Female Spine1/Female R Clavicle/Female
+      R UpperArm/Female R Forearm/Female R Hand/Female R Finger0
+    m_Weight: 0
+  - m_Path: Female/Female Pelvis/Female Spine/Female Spine1/Female R Clavicle/Female
+      R UpperArm/Female R Forearm/Female R Hand/Female R Finger0/Female R Finger01
+    m_Weight: 0
+  - m_Path: Female/Female Pelvis/Female Spine/Female Spine1/Female R Clavicle/Female
+      R UpperArm/Female R Forearm/Female R Hand/Female R Finger0/Female R Finger01/Female
+      R Finger02
+    m_Weight: 0
+  - m_Path: Female/Female Pelvis/Female Spine/Female Spine1/Female R Clavicle/Female
+      R UpperArm/Female R Forearm/Female R Hand/Female R Finger1
+    m_Weight: 0
+  - m_Path: Female/Female Pelvis/Female Spine/Female Spine1/Female R Clavicle/Female
+      R UpperArm/Female R Forearm/Female R Hand/Female R Finger1/Female R Finger11
+    m_Weight: 0
+  - m_Path: Female/Female Pelvis/Female Spine/Female Spine1/Female R Clavicle/Female
+      R UpperArm/Female R Forearm/Female R Hand/Female R Finger1/Female R Finger11/Female
+      R Finger12
+    m_Weight: 0
+  - m_Path: Female/Female Pelvis/Female Spine/Female Spine1/Female R Clavicle/Female
+      R UpperArm/Female R Forearm/Female R Hand/Female R Finger2
+    m_Weight: 0
+  - m_Path: Female/Female Pelvis/Female Spine/Female Spine1/Female R Clavicle/Female
+      R UpperArm/Female R Forearm/Female R Hand/Female R Finger2/Female R Finger21
+    m_Weight: 0
+  - m_Path: Female/Female Pelvis/Female Spine/Female Spine1/Female R Clavicle/Female
+      R UpperArm/Female R Forearm/Female R Hand/Female R Finger2/Female R Finger21/Female
+      R Finger22
+    m_Weight: 0
+  - m_Path: Female/Female Pelvis/Female Spine/Female Spine1/Female R Clavicle/Female
+      R UpperArm/Female R Forearm/Female R Hand/Female R Finger3
+    m_Weight: 0
+  - m_Path: Female/Female Pelvis/Female Spine/Female Spine1/Female R Clavicle/Female
+      R UpperArm/Female R Forearm/Female R Hand/Female R Finger3/Female R Finger31
+    m_Weight: 0
+  - m_Path: Female/Female Pelvis/Female Spine/Female Spine1/Female R Clavicle/Female
+      R UpperArm/Female R Forearm/Female R Hand/Female R Finger3/Female R Finger31/Female
+      R Finger32
+    m_Weight: 0
+  - m_Path: Female/Female Pelvis/Female Spine/Female Spine1/Female R Clavicle/Female
+      R UpperArm/Female R Forearm/Female R Hand/Female R Finger4
+    m_Weight: 0
+  - m_Path: Female/Female Pelvis/Female Spine/Female Spine1/Female R Clavicle/Female
+      R UpperArm/Female R Forearm/Female R Hand/Female R Finger4/Female R Finger41
+    m_Weight: 0
+  - m_Path: Female/Female Pelvis/Female Spine/Female Spine1/Female R Clavicle/Female
+      R UpperArm/Female R Forearm/Female R Hand/Female R Finger4/Female R Finger41/Female
+      R Finger42
+    m_Weight: 0
+  - m_Path: Female Warrior Mesh
+    m_Weight: 0
+  - m_Path: Skirt
+    m_Weight: 0

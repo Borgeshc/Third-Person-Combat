@@ -1,0 +1,115 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 1013480264747212}
+  m_IsPrefabParent: 1
+--- !u!1 &1013480264747212
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4475942554994818}
+  - component: {fileID: 33845805904497364}
+  - component: {fileID: 23426725604959400}
+  - component: {fileID: 114091480409967062}
+  m_Layer: 0
+  m_Name: Shield
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4475942554994818
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1013480264747212}
+  m_LocalRotation: {x: -0.90873915, y: -0.20721848, z: 0.30472374, w: 0.1959521}
+  m_LocalPosition: {x: -0.7239813, y: 1.0052547, z: -0.01712786}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 70.82, y: -54.498, z: -52.938004}
+--- !u!23 &23426725604959400
+MeshRenderer:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1013480264747212}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_Materials:
+  - {fileID: 2100000, guid: d4fcc69e61884c944be19112bf929276, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 0
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+--- !u!33 &33845805904497364
+MeshFilter:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1013480264747212}
+  m_Mesh: {fileID: 4300000, guid: 24f7f5d9fef5e134f8bc7cc92fffbd6c, type: 3}
+--- !u!114 &114091480409967062
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1013480264747212}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 23b310b8731c5164daf562607b7e0572, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  findOnStart: 1
+  findNow: 0
+  parentName: L Hand
+  excludeWords: []
+  exludeOwnHierarchy: 1
+  closest: 1
+  parentToRootObject: 0
+  use_SearchWord_RootObjet: 0
+  searchWord_RootObjet: 
+  hierarchyType: 0
+  setLocalPos: 1
+  setLocalRot: 1
+  localPos: {x: -0.10605909, y: -0.02272454, z: -0.0011783353}
+  localRot: {x: 70.10116, y: 305.4221, z: 306.52615}
+  storeCurrent: 0
+  storeCurrent_Parent: 0
+  destroyScriptAfterParenting: 1
+  foundParent: 0
+  parentedTo: 

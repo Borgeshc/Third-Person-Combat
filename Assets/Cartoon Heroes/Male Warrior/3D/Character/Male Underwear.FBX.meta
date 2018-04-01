@@ -1,0 +1,1071 @@
+fileFormatVersion: 2
+guid: 573d25eef8aeb424685920c39056403e
+timeCreated: 1503087980
+licenseType: Store
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: Eye L
+    100002: Eye R
+    100004: Hair Mesh
+    100006: //RootNode
+    100008: Male Underwear
+    100010: Male Underwear Mesh
+    100012: Male
+    100014: Male Hair Back L
+    100016: Male Hair Back R
+    100018: Male Hair Front
+    100020: Male Hair Side L
+    100022: Male Hair Side R
+    100024: Male Head
+    100026: Male Jaw
+    100028: Male L Calf
+    100030: Male L Clavicle
+    100032: Male L Eyebrow
+    100034: Male L Finger0
+    100036: Male L Finger01
+    100038: Male L Finger02
+    100040: Male L Finger1
+    100042: Male L Finger11
+    100044: Male L Finger12
+    100046: Male L Finger2
+    100048: Male L Finger21
+    100050: Male L Finger22
+    100052: Male L Finger3
+    100054: Male L Finger31
+    100056: Male L Finger32
+    100058: Male L Finger4
+    100060: Male L Finger41
+    100062: Male L Finger42
+    100064: Male L Foot
+    100066: Male L Forearm
+    100068: Male L ForeTwist
+    100070: Male L Hand
+    100072: Male L Lower Eyelid
+    100074: Male L LowerLip
+    100076: Male L Thigh
+    100078: Male L Toe0
+    100080: Male L Upper Eyelid
+    100082: Male L UpperArm
+    100084: Male L UpperLip
+    100086: Male LC LowerLip
+    100088: Male LC UpperLip
+    100090: Male Neck
+    100092: Male Pelvis
+    100094: Male R Calf
+    100096: Male R Clavicle
+    100098: Male R Eyebrow
+    100100: Male R Finger0
+    100102: Male R Finger01
+    100104: Male R Finger02
+    100106: Male R Finger1
+    100108: Male R Finger11
+    100110: Male R Finger12
+    100112: Male R Finger2
+    100114: Male R Finger21
+    100116: Male R Finger22
+    100118: Male R Finger3
+    100120: Male R Finger31
+    100122: Male R Finger32
+    100124: Male R Finger4
+    100126: Male R Finger41
+    100128: Male R Finger42
+    100130: Male R Foot
+    100132: Male R Forearm
+    100134: Male R ForeTwist
+    100136: Male R Hand
+    100138: Male R Lower Eyelid
+    100140: Male R LowerLip
+    100142: Male R Thigh
+    100144: Male R Toe0
+    100146: Male R Upper Eyelid
+    100148: Male R UpperArm
+    100150: Male R UpperLip
+    100152: Male RC LowerLip
+    100154: Male RC UpperLip
+    100156: Male Spine
+    100158: Male Spine1
+    100160: Male Tongue
+    100162: Male Tongue02
+    400000: Eye L
+    400002: Eye R
+    400004: Hair Mesh
+    400006: //RootNode
+    400008: Male Underwear
+    400010: Male Underwear Mesh
+    400012: Male
+    400014: Male Hair Back L
+    400016: Male Hair Back R
+    400018: Male Hair Front
+    400020: Male Hair Side L
+    400022: Male Hair Side R
+    400024: Male Head
+    400026: Male Jaw
+    400028: Male L Calf
+    400030: Male L Clavicle
+    400032: Male L Eyebrow
+    400034: Male L Finger0
+    400036: Male L Finger01
+    400038: Male L Finger02
+    400040: Male L Finger1
+    400042: Male L Finger11
+    400044: Male L Finger12
+    400046: Male L Finger2
+    400048: Male L Finger21
+    400050: Male L Finger22
+    400052: Male L Finger3
+    400054: Male L Finger31
+    400056: Male L Finger32
+    400058: Male L Finger4
+    400060: Male L Finger41
+    400062: Male L Finger42
+    400064: Male L Foot
+    400066: Male L Forearm
+    400068: Male L ForeTwist
+    400070: Male L Hand
+    400072: Male L Lower Eyelid
+    400074: Male L LowerLip
+    400076: Male L Thigh
+    400078: Male L Toe0
+    400080: Male L Upper Eyelid
+    400082: Male L UpperArm
+    400084: Male L UpperLip
+    400086: Male LC LowerLip
+    400088: Male LC UpperLip
+    400090: Male Neck
+    400092: Male Pelvis
+    400094: Male R Calf
+    400096: Male R Clavicle
+    400098: Male R Eyebrow
+    400100: Male R Finger0
+    400102: Male R Finger01
+    400104: Male R Finger02
+    400106: Male R Finger1
+    400108: Male R Finger11
+    400110: Male R Finger12
+    400112: Male R Finger2
+    400114: Male R Finger21
+    400116: Male R Finger22
+    400118: Male R Finger3
+    400120: Male R Finger31
+    400122: Male R Finger32
+    400124: Male R Finger4
+    400126: Male R Finger41
+    400128: Male R Finger42
+    400130: Male R Foot
+    400132: Male R Forearm
+    400134: Male R ForeTwist
+    400136: Male R Hand
+    400138: Male R Lower Eyelid
+    400140: Male R LowerLip
+    400142: Male R Thigh
+    400144: Male R Toe0
+    400146: Male R Upper Eyelid
+    400148: Male R UpperArm
+    400150: Male R UpperLip
+    400152: Male RC LowerLip
+    400154: Male RC UpperLip
+    400156: Male Spine
+    400158: Male Spine1
+    400160: Male Tongue
+    400162: Male Tongue02
+    2300000: Eye L
+    2300002: Eye R
+    2300004: Hair Mesh
+    2300006: Male Underwear
+    2300008: Male Underwear Mesh
+    3300000: Eye L
+    3300002: Eye R
+    3300004: Hair Mesh
+    3300006: Male Underwear
+    3300008: Male Underwear Mesh
+    4300000: Male Underwear Mesh
+    4300002: Eye R
+    4300004: Eye L
+    4300006: Hair Mesh
+    4300008: Male Underwear
+    7400000: Take 001
+    9500000: //RootNode
+    13700000: Hair Mesh
+    13700002: Male Underwear Mesh
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 3
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+  importAnimation: 0
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human:
+    - boneName: Male Pelvis
+      humanName: Hips
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Male L Thigh
+      humanName: LeftUpperLeg
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Male R Thigh
+      humanName: RightUpperLeg
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Male L Calf
+      humanName: LeftLowerLeg
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Male R Calf
+      humanName: RightLowerLeg
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Male L Foot
+      humanName: LeftFoot
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Male R Foot
+      humanName: RightFoot
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Male Spine
+      humanName: Spine
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Male Spine1
+      humanName: Chest
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Male Neck
+      humanName: Neck
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Male Head
+      humanName: Head
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Male L Clavicle
+      humanName: LeftShoulder
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Male R Clavicle
+      humanName: RightShoulder
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Male L UpperArm
+      humanName: LeftUpperArm
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Male R UpperArm
+      humanName: RightUpperArm
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Male L Forearm
+      humanName: LeftLowerArm
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Male R Forearm
+      humanName: RightLowerArm
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Male L Hand
+      humanName: LeftHand
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Male R Hand
+      humanName: RightHand
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Male L Toe0
+      humanName: LeftToes
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Male R Toe0
+      humanName: RightToes
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Male L Finger0
+      humanName: Left Thumb Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Male L Finger01
+      humanName: Left Thumb Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Male L Finger02
+      humanName: Left Thumb Distal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Male L Finger1
+      humanName: Left Index Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Male L Finger11
+      humanName: Left Index Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Male L Finger12
+      humanName: Left Index Distal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Male L Finger2
+      humanName: Left Middle Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Male L Finger21
+      humanName: Left Middle Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Male L Finger22
+      humanName: Left Middle Distal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Male L Finger3
+      humanName: Left Ring Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Male L Finger31
+      humanName: Left Ring Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Male L Finger32
+      humanName: Left Ring Distal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Male L Finger4
+      humanName: Left Little Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Male L Finger41
+      humanName: Left Little Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Male L Finger42
+      humanName: Left Little Distal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Male R Finger0
+      humanName: Right Thumb Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Male R Finger01
+      humanName: Right Thumb Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Male R Finger02
+      humanName: Right Thumb Distal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Male R Finger1
+      humanName: Right Index Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Male R Finger11
+      humanName: Right Index Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Male R Finger12
+      humanName: Right Index Distal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Male R Finger2
+      humanName: Right Middle Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Male R Finger21
+      humanName: Right Middle Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Male R Finger22
+      humanName: Right Middle Distal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Male R Finger3
+      humanName: Right Ring Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Male R Finger31
+      humanName: Right Ring Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Male R Finger32
+      humanName: Right Ring Distal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Male R Finger4
+      humanName: Right Little Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Male R Finger41
+      humanName: Right Little Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Male R Finger42
+      humanName: Right Little Distal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    skeleton:
+    - name: Male Underwear(Clone)
+      parentName: 
+      position: {x: 0, y: 0, z: 0}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Male
+      parentName: Male Underwear(Clone)
+      position: {x: -0, y: 0.80575395, z: 0.007634577}
+      rotation: {x: -0.50000036, y: 0.49999967, z: 0.49999967, w: 0.50000036}
+      scale: {x: 0.99999994, y: 0.99999994, z: 1}
+    - name: Male Pelvis
+      parentName: Male
+      position: {x: 0, y: 0, z: 0.04729545}
+      rotation: {x: -0.5, y: 0.5, z: 0.49999934, w: 0.50000066}
+      scale: {x: 1, y: 0.99999994, z: 0.99999994}
+    - name: Male L Thigh
+      parentName: Male Pelvis
+      position: {x: 0.00000015258789, y: 0.0000001770258, z: 0.102456205}
+      rotation: {x: -0.00019851324, y: 0.999921, z: 0.00241819, w: -0.0123351505}
+      scale: {x: 0.9999999, y: 0.99999994, z: 1}
+    - name: Male L Calf
+      parentName: Male L Thigh
+      position: {x: -0.37691742, y: 0, z: 0}
+      rotation: {x: 0.0000000014073046, y: 0.00000000754984, z: 0.060654454, w: 0.9981588}
+      scale: {x: 1.0000001, y: 1.0000001, z: 1}
+    - name: Male L Foot
+      parentName: Male L Calf
+      position: {x: -0.35131827, y: -0.0000000047683715, z: 0.000000038146972}
+      rotation: {x: -0.036610853, y: -0.049605954, z: -0.014198437, w: 0.99799675}
+      scale: {x: 1, y: 0.99999976, z: 1}
+    - name: Male L Toe0
+      parentName: Male L Foot
+      position: {x: -0.09843327, y: 0.13360284, z: 0.000000019073486}
+      rotation: {x: -0.000000015597427, y: 0.000000016061147, z: -0.7560611, w: 0.65450114}
+      scale: {x: 1.0000001, y: 1.0000001, z: 1}
+    - name: Male R Thigh
+      parentName: Male Pelvis
+      position: {x: -0.00000015258789, y: -0.00000010669231, z: -0.102456205}
+      rotation: {x: -0.0029284954, y: 0.9998488, z: -0.015042007, w: 0.008227348}
+      scale: {x: 0.9999999, y: 1, z: 0.99999994}
+    - name: Male R Calf
+      parentName: Male R Thigh
+      position: {x: -0.37691745, y: -0.0000000023841857, z: 0.000000019073486}
+      rotation: {x: -0.0000000018592159, y: -1.12977724e-10, z: 0.06065445, w: 0.9981588}
+      scale: {x: 1, y: 0.99999994, z: 1}
+    - name: Male R Foot
+      parentName: Male R Calf
+      position: {x: -0.35131827, y: -0.000000014305114, z: -0.000000019073486}
+      rotation: {x: -0.033482134, y: 0.052720398, z: -0.019820953, w: 0.997851}
+      scale: {x: 1, y: 0.9999998, z: 1}
+    - name: Male R Toe0
+      parentName: Male R Foot
+      position: {x: -0.09843326, y: 0.13360281, z: 0}
+      rotation: {x: 0.000000014805274, y: -0.000000016746897, z: -0.7560611, w: 0.6545011}
+      scale: {x: 0.99999994, y: 0.9999999, z: 1}
+    - name: Male Spine
+      parentName: Male Pelvis
+      position: {x: -0.07146362, y: -0.00017717003, z: 0.00000009935138}
+      rotation: {x: -0.000002080476, y: 0.000000693676, z: -0.000398159, w: 0.99999994}
+      scale: {x: 1, y: 0.99999994, z: 0.99999994}
+    - name: Male Spine1
+      parentName: Male Spine
+      position: {x: -0.22254494, y: -0.0001772064, z: -4.915012e-10}
+      rotation: {x: -3.0117673e-14, y: 0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Male L Clavicle
+      parentName: Male Spine1
+      position: {x: -0.17457984, y: -0.040896196, z: 0.05348378}
+      rotation: {x: -0.7038883, y: -0.067388855, z: 0.70394176, w: 0.06682825}
+      scale: {x: 1.0000001, y: 1, z: 1}
+    - name: Male L UpperArm
+      parentName: Male L Clavicle
+      position: {x: -0.1372699, y: 0, z: 0}
+      rotation: {x: 0.04948671, y: -0.025937725, z: 0.09264586, w: 0.9941303}
+      scale: {x: 1, y: 1.0000001, z: 1}
+    - name: Male L Forearm
+      parentName: Male L UpperArm
+      position: {x: -0.27215573, y: 0, z: 0}
+      rotation: {x: -0.0030902103, y: 0.02254296, z: 0.03655126, w: 0.9990728}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Male L ForeTwist
+      parentName: Male L Forearm
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: -0.22506827, y: 0.0000000018865005, z: -0.0000000081668485, w: 0.974343}
+      scale: {x: 1, y: 1.0000001, z: 1.0000001}
+    - name: Male L Hand
+      parentName: Male L Forearm
+      position: {x: -0.22717483, y: -0.000000009536743, z: 0}
+      rotation: {x: 0.6861334, y: -0.10417368, z: 0.061594598, w: -0.7173388}
+      scale: {x: 1.0000001, y: 1, z: 1.0000001}
+    - name: Male L Finger0
+      parentName: Male L Hand
+      position: {x: -0.039614335, y: -0.0036203002, z: -0.03890907}
+      rotation: {x: 0.6322194, y: -0.31391135, z: 0.29899222, w: 0.6421543}
+      scale: {x: 1, y: 0.99999994, z: 0.9999999}
+    - name: Male L Finger01
+      parentName: Male L Finger0
+      position: {x: -0.03797859, y: 0, z: 0}
+      rotation: {x: -0.00000023841847, y: 0.000000059604616, z: -0.037772786, w: 0.99928635}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Male L Finger02
+      parentName: Male L Finger01
+      position: {x: -0.037978552, y: 0, z: 0}
+      rotation: {x: -0.000000010977398, y: -0.00000002965746, z: -0.1164022, w: 0.9932022}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Male L Finger1
+      parentName: Male L Hand
+      position: {x: -0.10655384, y: 0.0077722166, z: -0.04797241}
+      rotation: {x: -0.0364992, y: -0.07949027, z: -0.10162534, w: 0.99096996}
+      scale: {x: 1, y: 1.0000001, z: 1}
+    - name: Male L Finger11
+      parentName: Male L Finger1
+      position: {x: -0.033282623, y: 0.000000076293944, z: 0}
+      rotation: {x: 0.00000011548396, y: -0.0000014603132, z: -0.037774775, w: 0.99928635}
+      scale: {x: 0.99999994, y: 1, z: 1}
+    - name: Male L Finger12
+      parentName: Male L Finger11
+      position: {x: -0.03328268, y: 0, z: 0}
+      rotation: {x: 0.0000000073999322, y: -8.6726404e-10, z: -0.11640222, w: 0.9932022}
+      scale: {x: 1.0000002, y: 1.0000001, z: 1.0000002}
+    - name: Male L Finger2
+      parentName: Male L Hand
+      position: {x: -0.11227691, y: 0.011468735, z: -0.020986252}
+      rotation: {x: -0.043467995, y: -0.08155889, z: -0.09375509, w: 0.9912965}
+      scale: {x: 0.9999999, y: 0.99999994, z: 1}
+    - name: Male L Finger21
+      parentName: Male L Finger2
+      position: {x: -0.036366843, y: 0, z: -0.000000076293944}
+      rotation: {x: -0.000000059604623, y: -0.00000052154047, z: -0.037769813, w: 0.99928653}
+      scale: {x: 0.99999994, y: 0.99999994, z: 1}
+    - name: Male L Finger22
+      parentName: Male L Finger21
+      position: {x: -0.03636692, y: 0, z: 0.000000076293944}
+      rotation: {x: -0.00000001849983, y: 0.00000000216816, z: -0.11640223, w: 0.99320215}
+      scale: {x: 1.0000001, y: 1.0000002, z: 1}
+    - name: Male L Finger3
+      parentName: Male L Hand
+      position: {x: -0.11390293, y: 0.014720382, z: 0.0062976833}
+      rotation: {x: -0.02236175, y: -0.071279444, z: -0.116844535, w: 0.99033666}
+      scale: {x: 0.9999999, y: 0.99999994, z: 1}
+    - name: Male L Finger31
+      parentName: Male L Finger3
+      position: {x: -0.033282697, y: 0, z: 0}
+      rotation: {x: 0.0000000502914, y: -0.0000011753286, z: -0.03776794, w: 0.9992866}
+      scale: {x: 0.9999998, y: 0.99999994, z: 0.9999999}
+    - name: Male L Finger32
+      parentName: Male L Finger31
+      position: {x: -0.03328274, y: 0, z: 0}
+      rotation: {x: 0.000000009712411, y: -0.0000000011382844, z: -0.116402246, w: 0.99320215}
+      scale: {x: 1.0000002, y: 1, z: 1.0000001}
+    - name: Male L Finger4
+      parentName: Male L Hand
+      position: {x: -0.10799961, y: 0.018986663, z: 0.027778778}
+      rotation: {x: -0.016650347, y: -0.052079268, z: -0.119878046, w: 0.9912819}
+      scale: {x: 0.9999998, y: 0.99999994, z: 0.9999998}
+    - name: Male L Finger41
+      parentName: Male L Finger4
+      position: {x: -0.027735557, y: 0, z: 0}
+      rotation: {x: 0.00000036321566, y: -0.0000009387728, z: -0.037768967, w: 0.99928653}
+      scale: {x: 1, y: 1, z: 0.9999999}
+    - name: Male L Finger42
+      parentName: Male L Finger41
+      position: {x: -0.027735557, y: 0.000000038146972, z: 0.000000076293944}
+      rotation: {x: -0.000000024165237, y: 0.00000001783529, z: -0.11640222, w: 0.99320215}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Male Neck
+      parentName: Male Spine1
+      position: {x: -0.23856582, y: -0.028866267, z: 0.0010283804}
+      rotation: {x: -1.1571157e-13, y: 0.00000046607784, z: -0.16804074, w: 0.98578006}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Male Head
+      parentName: Male Neck
+      position: {x: -0.09493774, y: 0.013252448, z: -0.0004229119}
+      rotation: {x: -3.0019948e-13, y: -0.0000004475289, z: 0.16135377, w: 0.98689663}
+      scale: {x: 1.0000001, y: 1.0000001, z: 1}
+    - name: Eye L
+      parentName: Male Head
+      position: {x: -0.10904879, y: 0.09231358, z: 0.043448083}
+      rotation: {x: 0.704991, y: 0.054665722, z: -0.7049901, w: 0.05466579}
+      scale: {x: 1.2500001, y: 1.2500002, z: 1.2500001}
+    - name: Eye R
+      parentName: Male Head
+      position: {x: -0.109048896, y: 0.09231371, z: -0.044253707}
+      rotation: {x: 0.704991, y: 0.054665722, z: -0.7049901, w: 0.05466579}
+      scale: {x: 1.2500001, y: 1.2500002, z: 1.2500001}
+    - name: Hair Mesh
+      parentName: Male Head
+      position: {x: -0.08509399, y: -0.02466894, z: -0.00040354356}
+      rotation: {x: 4.71012e-14, y: 0, z: -0, w: 1}
+      scale: {x: 1.0000001, y: 1.0000001, z: 1}
+    - name: Male Hair Back L
+      parentName: Male Head
+      position: {x: -0.09294281, y: -0.042134646, z: 0.060736462}
+      rotation: {x: -0.20637573, y: 0.02481536, z: 0.9778031, w: -0.026350465}
+      scale: {x: 1.0000001, y: 0.99999994, z: 1}
+    - name: Male Hair Back R
+      parentName: Male Head
+      position: {x: -0.09294281, y: -0.04213432, z: -0.061740875}
+      rotation: {x: 0.20638487, y: -0.024821363, z: 0.977801, w: -0.026350137}
+      scale: {x: 1.0000001, y: 1.0000001, z: 0.99999994}
+    - name: Male Hair Front
+      parentName: Male Head
+      position: {x: -0.23314346, y: 0.12593453, z: -0.00050205906}
+      rotation: {x: -1.8916225e-12, y: -0.000002678925, z: 0.9658658, w: -0.25904298}
+      scale: {x: 1.0000001, y: 1, z: 0.99999994}
+    - name: Male Hair Side L
+      parentName: Male Head
+      position: {x: -0.20509918, y: 0.05960898, z: 0.07783613}
+      rotation: {x: -0.16948597, y: -0.013889501, z: 0.98220736, w: -0.07968949}
+      scale: {x: 1.0000001, y: 1, z: 0.99999994}
+    - name: Male Hair Side R
+      parentName: Male Head
+      position: {x: -0.20509903, y: 0.05960943, z: -0.07883997}
+      rotation: {x: 0.1694852, y: 0.013884004, z: 0.98220754, w: -0.079689585}
+      scale: {x: 1.0000001, y: 0.99999994, z: 0.99999994}
+    - name: Male Jaw
+      parentName: Male Head
+      position: {x: -0.05070343, y: 0.022242026, z: -0.00050220743}
+      rotation: {x: 0.0000003601472, y: 0.00000041486382, z: 0.89141726, w: -0.45318347}
+      scale: {x: 1.0000001, y: 1.0000001, z: 0.99999994}
+    - name: Male L LowerLip
+      parentName: Male Jaw
+      position: {x: -0.079672165, y: -0.03282707, z: 0.031285815}
+      rotation: {x: 2.2043977e-13, y: -0.0000006003171, z: 0.21643963, w: 0.976296}
+      scale: {x: 1, y: 1.0000001, z: 0.99999994}
+    - name: Male LC LowerLip
+      parentName: Male Jaw
+      position: {x: -0.100467, y: -0.034833603, z: 0.01058109}
+      rotation: {x: 3.39441e-13, y: -0.0000004816309, z: 0.17364828, w: 0.9848077}
+      scale: {x: 1.0000001, y: 1.0000001, z: 0.99999994}
+    - name: Male R LowerLip
+      parentName: Male Jaw
+      position: {x: -0.079672165, y: -0.03282692, z: -0.031285997}
+      rotation: {x: 2.2043977e-13, y: -0.0000006003171, z: 0.21643963, w: 0.976296}
+      scale: {x: 1, y: 1.0000001, z: 0.99999994}
+    - name: Male RC LowerLip
+      parentName: Male Jaw
+      position: {x: -0.100466914, y: -0.034833524, z: -0.010581283}
+      rotation: {x: 3.39441e-13, y: -0.0000004816309, z: 0.17364828, w: 0.9848077}
+      scale: {x: 1.0000001, y: 1.0000001, z: 0.99999994}
+    - name: Male L Eyebrow
+      parentName: Male Head
+      position: {x: -0.14292572, y: 0.14167604, z: 0.029590458}
+      rotation: {x: 0.19972095, y: 0.6532543, z: 0.21352717, w: 0.69841003}
+      scale: {x: 1.0000001, y: 1.0000001, z: 1.0000001}
+    - name: Male L Lower Eyelid
+      parentName: Male Head
+      position: {x: -0.099069215, y: 0.12031469, z: 0.046288818}
+      rotation: {x: 1.3546665e-12, y: 0.000001953439, z: -0.70429784, w: 0.7099046}
+      scale: {x: 1.0000002, y: 1.0000002, z: 1}
+    - name: Male L Upper Eyelid
+      parentName: Male Head
+      position: {x: -0.12531662, y: 0.1219315, z: 0.044540565}
+      rotation: {x: 1.5254842e-12, y: 0.000001928076, z: -0.69515336, w: 0.71886146}
+      scale: {x: 1.0000001, y: 1.0000001, z: 1}
+    - name: Male L UpperLip
+      parentName: Male Head
+      position: {x: -0.04245392, y: 0.11053444, z: 0.03147774}
+      rotation: {x: 0.0000010352883, y: -0.0000013740347, z: -0.7722002, w: 0.63537925}
+      scale: {x: 0.99999994, y: 1.0000001, z: 0.9999998}
+    - name: Male LC UpperLip
+      parentName: Male Head
+      position: {x: -0.05215851, y: 0.13260111, z: 0.012014389}
+      rotation: {x: -0.00000085605024, y: -0.00000056428934, z: -0.79918015, w: 0.6010917}
+      scale: {x: 1, y: 1.0000002, z: 0.9999998}
+    - name: Male R Eyebrow
+      parentName: Male Head
+      position: {x: -0.14292572, y: 0.14167619, z: -0.029589664}
+      rotation: {x: -0.19972095, y: -0.65325546, z: 0.2135236, w: 0.69841003}
+      scale: {x: 1.0000001, y: 1.0000001, z: 1}
+    - name: Male R Lower Eyelid
+      parentName: Male Head
+      position: {x: -0.099069215, y: 0.120314956, z: -0.04628815}
+      rotation: {x: 1.3546665e-12, y: 0.000001953439, z: -0.70429784, w: 0.7099046}
+      scale: {x: 1.0000002, y: 1.0000002, z: 1}
+    - name: Male R Upper Eyelid
+      parentName: Male Head
+      position: {x: -0.12531662, y: 0.12193174, z: -0.044539887}
+      rotation: {x: 1.5254842e-12, y: 0.000001928076, z: -0.69515336, w: 0.71886146}
+      scale: {x: 1.0000001, y: 1.0000001, z: 1}
+    - name: Male R UpperLip
+      parentName: Male Head
+      position: {x: -0.04245392, y: 0.11053463, z: -0.03147712}
+      rotation: {x: -0.000003073013, y: 0.00000015387839, z: -0.7722002, w: 0.63537925}
+      scale: {x: 0.99999994, y: 1.0000001, z: 0.9999998}
+    - name: Male RC UpperLip
+      parentName: Male Head
+      position: {x: -0.05215851, y: 0.13260119, z: -0.012013654}
+      rotation: {x: -0.00000085605024, y: -0.00000056428934, z: -0.79918015, w: 0.6010917}
+      scale: {x: 1, y: 1.0000002, z: 0.9999998}
+    - name: Male Tongue
+      parentName: Male Head
+      position: {x: -0.024536895, y: 0.05296604, z: 0.00000007651746}
+      rotation: {x: 1.3725157e-12, y: 0.000002010362, z: -0.7248209, w: 0.6889373}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Male Tongue02
+      parentName: Male Tongue
+      position: {x: -0.032926448, y: -0.000025634765, z: -7.4505804e-11}
+      rotation: {x: 2.3922428e-13, y: 0.00000032429477, z: -0.116921976, w: 0.9931411}
+      scale: {x: 1, y: 1, z: 0.99999994}
+    - name: Male R Clavicle
+      parentName: Male Spine1
+      position: {x: -0.17457984, y: -0.04089591, z: -0.05348402}
+      rotation: {x: 0.7038885, y: 0.06738689, z: 0.70394194, w: 0.06682628}
+      scale: {x: 1, y: 0.99999994, z: 1}
+    - name: Male R UpperArm
+      parentName: Male R Clavicle
+      position: {x: -0.13726987, y: -0.000000007152557, z: 0}
+      rotation: {x: -0.049486816, y: 0.025939398, z: 0.092645876, w: 0.99413025}
+      scale: {x: 1, y: 1.0000001, z: 1}
+    - name: Male R Forearm
+      parentName: Male R UpperArm
+      position: {x: -0.2721558, y: 0, z: -0.000000076293944}
+      rotation: {x: 0.0034341211, y: -0.021814683, z: 0.028344609, w: 0.9993543}
+      scale: {x: 1.0000001, y: 1.0000001, z: 1}
+    - name: Male R ForeTwist
+      parentName: Male R Forearm
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0.22506823, y: -0.0000000010480556, z: -0.000000004537138, w: 0.974343}
+      scale: {x: 1, y: 1.0000001, z: 1.0000001}
+    - name: Male R Hand
+      parentName: Male R Forearm
+      position: {x: -0.22717483, y: -0.000000009536743, z: 0}
+      rotation: {x: 0.74223655, y: -0.054523267, z: 0.036026303, w: 0.6669439}
+      scale: {x: 1.0000001, y: 1, z: 1.0000001}
+    - name: Male R Finger0
+      parentName: Male R Hand
+      position: {x: -0.039614335, y: -0.0036203002, z: 0.03890907}
+      rotation: {x: -0.5603139, y: 0.35737196, z: 0.24556054, w: 0.705715}
+      scale: {x: 1, y: 0.9999999, z: 1.0000001}
+    - name: Male R Finger01
+      parentName: Male R Finger0
+      position: {x: -0.037978552, y: 0, z: 0}
+      rotation: {x: 0.000000119209226, y: -0.00000017881385, z: -0.03777517, w: 0.9992863}
+      scale: {x: 1, y: 0.99999994, z: 1}
+    - name: Male R Finger02
+      parentName: Male R Finger01
+      position: {x: -0.037978496, y: 0, z: 0}
+      rotation: {x: 0.000000010001725, y: 0.000000021332534, z: -0.11640221, w: 0.9932022}
+      scale: {x: 1, y: 1.0000001, z: 1}
+    - name: Male R Finger1
+      parentName: Male R Hand
+      position: {x: -0.106553875, y: 0.0077722166, z: 0.047972336}
+      rotation: {x: 0.046367142, y: 0.15569812, z: -0.085400485, w: 0.9830132}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Male R Finger11
+      parentName: Male R Finger1
+      position: {x: -0.033282697, y: 0, z: 0}
+      rotation: {x: 0.00000003725289, y: -0.0000011920924, z: -0.037770875, w: 0.9992865}
+      scale: {x: 1, y: 0.99999994, z: 1}
+    - name: Male R Finger12
+      parentName: Male R Finger11
+      position: {x: -0.033282697, y: 0, z: 0}
+      rotation: {x: 0.0000000017345281, y: 0.000000014799865, z: -0.116402216, w: 0.9932022}
+      scale: {x: 1, y: 1.0000001, z: 1}
+    - name: Male R Finger2
+      parentName: Male R Hand
+      position: {x: -0.11227691, y: 0.011468735, z: 0.020986252}
+      rotation: {x: 0.0437095, y: 0.08142948, z: -0.09081401, w: 0.99157023}
+      scale: {x: 0.9999999, y: 0.99999994, z: 0.99999994}
+    - name: Male R Finger21
+      parentName: Male R Finger2
+      position: {x: -0.036366805, y: -0.000000076293944, z: 0}
+      rotation: {x: -0.000000044703462, y: 0.00000037997944, z: -0.03776932, w: 0.9992865}
+      scale: {x: 0.99999994, y: 0.99999994, z: 0.9999999}
+    - name: Male R Finger22
+      parentName: Male R Finger21
+      position: {x: -0.036366843, y: 0, z: -0.000000076293944}
+      rotation: {x: 0.000000016765306, y: -0.000000016968027, z: -0.11640222, w: 0.9932022}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Male R Finger3
+      parentName: Male R Hand
+      position: {x: -0.11390293, y: 0.014720306, z: -0.0062976833}
+      rotation: {x: 0.025813991, y: 0.079231106, z: -0.097967766, w: 0.99169475}
+      scale: {x: 0.99999994, y: 1, z: 1}
+    - name: Male R Finger31
+      parentName: Male R Finger3
+      position: {x: -0.03328266, y: 0, z: 0}
+      rotation: {x: -0.00000002048909, y: 0.0000025760373, z: -0.03776726, w: 0.9992866}
+      scale: {x: 0.99999994, y: 1, z: 1}
+    - name: Male R Finger32
+      parentName: Male R Finger31
+      position: {x: -0.033282697, y: 0, z: -0.000000076293944}
+      rotation: {x: 0.00000003295266, y: -0.000000018865164, z: -0.11640222, w: 0.99320215}
+      scale: {x: 1.0000002, y: 1, z: 1.0000001}
+    - name: Male R Finger4
+      parentName: Male R Hand
+      position: {x: -0.10799961, y: 0.01898674, z: -0.027778778}
+      rotation: {x: 0.023614755, y: 0.0375096, z: -0.09958192, w: 0.9940417}
+      scale: {x: 0.9999998, y: 0.99999994, z: 0.9999999}
+    - name: Male R Finger41
+      parentName: Male R Finger4
+      position: {x: -0.027735518, y: 0, z: 0}
+      rotation: {x: 0.00000013038512, y: 0.0000014938408, z: -0.037770126, w: 0.9992865}
+      scale: {x: 1.0000001, y: 1, z: 1}
+    - name: Male R Finger42
+      parentName: Male R Finger41
+      position: {x: -0.027735595, y: -0.000000038146972, z: 0}
+      rotation: {x: -0.000000018499831, y: 0.0000000021681603, z: -0.11640223, w: 0.99320215}
+      scale: {x: 0.99999994, y: 1, z: 1}
+    - name: Male Underwear Mesh
+      parentName: Male Underwear(Clone)
+      position: {x: -0, y: 0, z: 0.00000004938399}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071068}
+      scale: {x: 1, y: 1, z: 1}
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 1
+    hasExtraRoot: 1
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 3
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
