@@ -37,7 +37,6 @@ public class TargetManager : MonoBehaviour
             if(Input.GetKeyDown(KeyCode.Tab))
             {
                 int currentTargetIndex = Array.IndexOf(nearbyTargets, targetCollider);
-                print(currentTargetIndex);
 
                 if (currentTargetIndex >= nearbyTargets.Length - 1)
                     currentTargetIndex = 0;

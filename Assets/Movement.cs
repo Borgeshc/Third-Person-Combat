@@ -22,9 +22,6 @@ public class Movement : MonoBehaviour
     float moveX;
     float moveY;
 
-    float lookX;
-    float lookY;
-
     float xRotationValue;
 
     float jump;
@@ -42,7 +39,6 @@ public class Movement : MonoBehaviour
     bool landing;
     bool isCrouching;
 
-    Camera myCamera;
     Vector3 movement;
     Quaternion rotation;
     CharacterController cc;
@@ -62,7 +58,6 @@ public class Movement : MonoBehaviour
         attack = GetComponent<Attack>();
         anim = GetComponentInChildren<Animator>();
         speed = movementSpeed;
-        myCamera = Camera.main;
 
         cc = GetComponent<CharacterController>();
 
@@ -78,8 +73,6 @@ public class Movement : MonoBehaviour
     {
         moveX = Input.GetAxis("Horizontal");
         moveY = Input.GetAxis("Vertical");
-        lookX = Input.GetAxis("Mouse X");
-        lookY = Input.GetAxis("Mouse Y");
 
         isSprinting = Input.GetKey(KeyCode.LeftShift);
 

@@ -10,7 +10,14 @@ public class Attack : MonoBehaviour
     public float attackMoveSpeed;
     public int maxCombo;
 
+    [Space]
+    public int combo1Damage;
+    public int combo2Damage;
+    public int combo3Damage;
+    public int blockStrikeDamage;
+
     int comboCount;
+    int damage;
 
     [HideInInspector]
     public bool attacking;
@@ -76,13 +83,13 @@ public class Attack : MonoBehaviour
             if (!inRange)
             {
                 cc.Move(targetPosition * attackMoveSpeed * Time.deltaTime);
-                anim.SetBool("IsSprinting", true);
+                anim.SetBool("IsCharging", true);
                 anim.SetLayerWeight(2, .5f);
             }
             else
             {
                 anim.SetLayerWeight(2, 1);
-                anim.SetBool("IsSprinting", false);
+                anim.SetBool("IsCharging", false);
             }
         }
 	}
@@ -99,17 +106,21 @@ public class Attack : MonoBehaviour
 
         if(!blocking)
         {
+            DealDamage();
             RunCombo();
         }
         else if(blocking && !inRange)
         {
             blocking = false;
             CancelBlock();
+            if(TargetManager.target)
+                TargetManager.target.GetComponent<Health>().TookDamage(blockStrikeDamage, true);
             anim.SetBool("BlockStrike", true);
         }
         else if(blocking && inRange)
         {
             CancelBlock();
+            DealDamage();
             RunCombo();
         }
 
@@ -117,6 +128,23 @@ public class Attack : MonoBehaviour
         anim.SetBool("Attacking", false);
         anim.SetBool("BlockStrike", false);
         attacking = false;
+    }
+
+    void DealDamage()
+    {
+        if (!TargetManager.target) return;
+            switch (comboCount)
+        {
+            case 0:
+                TargetManager.target.GetComponent<Health>().TookDamage(combo1Damage, false);
+                break;
+            case 1:
+                TargetManager.target.GetComponent<Health>().TookDamage(combo1Damage, false);
+                break;
+            case 2:
+                TargetManager.target.GetComponent<Health>().TookDamage(combo1Damage, true);
+                break;
+        }
     }
 
     public void StopAttackAnimation()
