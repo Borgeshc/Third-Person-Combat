@@ -40,12 +40,14 @@ public class Attack : MonoBehaviour
     {
 		if(Input.GetKeyDown(KeyCode.Mouse0) && !attacking && !movement.isJumping && !movement.isRolling)
         {
+            movement.CancelCrouch();
             attacking = true;
             StartCoroutine(Attacking());
         }
 
         if(Input.GetKey(KeyCode.Mouse1) && !attacking && !movement.isJumping && !movement.isRolling)
         {
+            movement.CancelCrouch();
             blocking = true;
             anim.SetBool("IsBlocking", true);
         }

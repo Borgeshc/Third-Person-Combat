@@ -40,6 +40,7 @@ public class Movement : MonoBehaviour
     bool isSprinting;
     bool waiting;
     bool landing;
+    bool isCrouching;
 
     Camera myCamera;
     Vector3 movement;
@@ -52,6 +53,10 @@ public class Movement : MonoBehaviour
 
     Attack attack;
 
+    float colliderHeight;
+    Vector3 colliderCenter;
+    CapsuleCollider capsuleCollider;
+
     private void Start()
     {
         attack = GetComponent<Attack>();
@@ -63,6 +68,10 @@ public class Movement : MonoBehaviour
 
         current_pos = transform.position;
         last_pos = transform.position;
+
+        capsuleCollider = GetComponent<CapsuleCollider>();
+        colliderHeight = capsuleCollider.height;
+        colliderCenter = capsuleCollider.center;
     }
 
     public void RecieveInput()
@@ -74,8 +83,16 @@ public class Movement : MonoBehaviour
 
         isSprinting = Input.GetKey(KeyCode.LeftShift);
 
+        if(isSprinting)
+        {
+            CancelCrouch();
+        }
+
         if (Input.GetKeyDown(KeyCode.Space) && !attack.attacking && !isRolling && !landing)
+        {
+            CancelCrouch();
             Jump();
+        }
 
         if (Input.GetKeyDown(KeyCode.LeftAlt) && !attack.attacking && !isJumping)
         {
@@ -83,6 +100,29 @@ public class Movement : MonoBehaviour
             isRolling = true;
             anim.SetTrigger("Roll");
         }
+
+        if(Input.GetKeyDown(KeyCode.LeftControl))
+        {
+            isCrouching = !isCrouching;
+            anim.SetBool("IsCrouching", isCrouching);
+
+            if(isCrouching)
+            {
+                capsuleCollider.height = colliderHeight / 2;
+                capsuleCollider.center = new Vector3(colliderCenter.x, colliderCenter.y / 2, colliderCenter.z);
+            }
+            else
+            {
+                capsuleCollider.height = colliderHeight;
+                capsuleCollider.center = colliderCenter;
+            }
+        }
+    }
+
+    public void CancelCrouch()
+    {
+        isCrouching = false;
+        anim.SetBool("IsCrouching", false);
     }
 
     void Animate()
