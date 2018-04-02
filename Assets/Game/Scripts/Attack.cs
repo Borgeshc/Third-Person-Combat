@@ -16,6 +16,8 @@ public class Attack : MonoBehaviour
     public int combo3Damage;
     public int blockStrikeDamage;
 
+    public GameObject chargeEffect;
+
     int comboCount;
     int damage;
 
@@ -31,6 +33,7 @@ public class Attack : MonoBehaviour
     Animator anim;
     Movement movement;
     CharacterController cc;
+    VisualEffects visualEffects;
 
     bool isCharging;
     bool inRange;
@@ -39,6 +42,7 @@ public class Attack : MonoBehaviour
     {
         movement = GetComponent<Movement>();
         anim = GetComponentInChildren<Animator>();
+        visualEffects = GetComponentInChildren<VisualEffects>();
 
         cc = GetComponent<CharacterController>();
     }
@@ -101,7 +105,10 @@ public class Attack : MonoBehaviour
             Vector3 targetPosition = TargetManager.target.position - transform.position;
 
             if (targetPosition.magnitude > attackRange)
+            {
                 comboCount = 2;
+                visualEffects.ChargeEffect();
+            }
         }
 
         if(!blocking)
