@@ -5,6 +5,7 @@ using UnityEngine;
 public class Health : MonoBehaviour
 {
     public float maxHealth;
+    public GameObject hitEffect;
 
     float health;
 
@@ -56,7 +57,19 @@ public class Health : MonoBehaviour
             anim.SetTrigger("HeavyHit");
 
         yield return new WaitForSeconds(.25f);
+        
         takingDamage = false;
+    }
+
+    public IEnumerator HitEffect()
+    {
+        if (hitEffect)
+            hitEffect.SetActive(true);
+
+        yield return new WaitForSeconds(.25f);
+
+        if (hitEffect)
+            hitEffect.SetActive(false);
     }
 
     void Died()

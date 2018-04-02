@@ -154,6 +154,14 @@ public class Attack : MonoBehaviour
         }
     }
 
+    public void HitTarget()
+    {
+        if(TargetManager.target)
+        {
+            StartCoroutine(TargetManager.target.GetComponent<Health>().HitEffect());
+        }
+    }
+
     public void StopAttackAnimation()
     {
         anim.SetBool("Attacking", false);
