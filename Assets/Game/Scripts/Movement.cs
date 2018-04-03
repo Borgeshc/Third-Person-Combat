@@ -188,7 +188,8 @@ public class Movement : MonoBehaviour
     {
         movement = new Vector3(moveX, 0, moveY);
         movement = Vector3.ClampMagnitude(movement, 1);
-
+        movement = Camera.main.transform.TransformDirection(movement);
+        movement.y = 0;
         if (movement != Vector3.zero)
         {
             isMoving = true;
