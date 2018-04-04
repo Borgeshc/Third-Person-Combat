@@ -8,8 +8,8 @@ public class Health : MonoBehaviour
     public GameObject hitEffect;
 
     float health;
-
-    bool isDead;
+    [HideInInspector]
+    public bool isDead;
     bool takingDamage;
 
     Animator anim;

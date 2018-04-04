@@ -120,7 +120,8 @@ public class Attack : MonoBehaviour
         {
             blocking = false;
             CancelBlock();
-            if(TargetManager.target)
+
+            if(TargetManager.target && inRange)
                 TargetManager.target.GetComponent<Health>().TookDamage(blockStrikeDamage, true);
             anim.SetBool("BlockStrike", true);
         }
@@ -140,7 +141,8 @@ public class Attack : MonoBehaviour
     void DealDamage()
     {
         if (!TargetManager.target) return;
-            switch (comboCount)
+        if (!inRange) return;
+        switch (comboCount)
         {
             case 0:
                 TargetManager.target.GetComponent<Health>().TookDamage(combo1Damage, false);
