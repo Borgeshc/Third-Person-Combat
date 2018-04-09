@@ -17,10 +17,10 @@ TagManager:
   - Ground
   - Targetable
   - InvisWall
-  - 
-  - 
-  - 
-  - 
+  - FogVolumeShadowCaster
+  - FogVolume
+  - FogVolumeSurrogate
+  - FogVolumeUniform
   - 
   - 
   - 
