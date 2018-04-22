@@ -16,6 +16,7 @@ public class Movement : MonoBehaviour
     public float gravity = 20f;
     public float distToGround = 1.1f;
     public LayerMask groundLayer;
+    public Camera myCamera;
 
     float speed;
 
@@ -188,7 +189,7 @@ public class Movement : MonoBehaviour
     {
         movement = new Vector3(moveX, 0, moveY);
         movement = Vector3.ClampMagnitude(movement, 1);
-        movement = Camera.main.transform.TransformDirection(movement);
+        movement = myCamera.transform.TransformDirection(movement);
         movement.y = 0;
         if (movement != Vector3.zero)
         {
