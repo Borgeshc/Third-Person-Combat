@@ -145,8 +145,8 @@ public class Movement : MonoBehaviour
 
         RecieveInput();
         Animate();
-        if (landing || attack.blocking) return;
-        Move();
+        if ( attack.blocking) return;// landing ||
+         Move();
 
         if(movement != Vector3.zero)
         {
