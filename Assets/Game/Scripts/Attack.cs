@@ -2,8 +2,9 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.Networking;
 
-public class Attack : MonoBehaviour
+public class Attack : NetworkBehaviour
 {
     public float attackFrequency;
     public float attackRange;
