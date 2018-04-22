@@ -15,5 +15,12 @@ public class PlayerSetUp : NetworkBehaviour
                 componentsToDisable[i].enabled = false;
             }
         }
+        RegisterPlayer();
+    }
+
+    void RegisterPlayer()
+    {
+        string id = "Player " + GetComponent<NetworkIdentity>().netId;
+        transform.name = id;
     }
 }

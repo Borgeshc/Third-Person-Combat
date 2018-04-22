@@ -54,20 +54,20 @@ public class Attack : NetworkBehaviour
         {
             movement.CancelCrouch();
             attacking = true;
-            StartCoroutine(Attacking());
+            TriggerAttack();
         }
 
         if(Input.GetKey(KeyCode.Mouse1) && !attacking && !movement.isJumping && !movement.isRolling)
         {
             movement.CancelCrouch();
             blocking = true;
-            anim.SetBool("IsBlocking", true);
+            CmdBlocking(true);
         }
 
         if(Input.GetKeyUp(KeyCode.Mouse1))
         {
             blocking = false;
-            anim.SetBool("IsBlocking", false);
+            CmdBlocking(false);
         }
 
         if (TargetManager.target)
@@ -88,16 +88,63 @@ public class Attack : NetworkBehaviour
             if (!inRange)
             {
                 cc.Move(targetPosition * attackMoveSpeed * Time.deltaTime);
-                anim.SetBool("IsCharging", true);
-                anim.SetLayerWeight(2, .5f);
+                CmdCharging(true);
+            
             }
             else
             {
-                anim.SetLayerWeight(2, 1);
-                anim.SetBool("IsCharging", false);
+               
+                CmdCharging(false);
             }
         }
 	}
+
+    [Client]
+    void TriggerAttack()
+    {
+        StartCoroutine(Attacking());
+    }
+
+    [Command]
+    void CmdDealtDamage() //Tell the server a player dealt damage to an enemy
+    {
+
+    }
+
+    [Command]
+    void CmdBlocking(bool condition)    //Tell the server to change the blocking animation
+    {
+        anim.SetBool("IsBlocking", condition);
+    }
+
+    [Command]
+    void CmdCharging(bool condition)    //Tell the server to change the charging animation
+    {
+        if (condition)
+            anim.SetLayerWeight(2, .5f);
+        else
+            anim.SetLayerWeight(2, 1);
+
+        anim.SetBool("IsCharging", condition);
+    }
+
+    [Command]
+    void CmdBlockStrike(bool condition)    //Tell the server to change the BlockStrike animation
+    {
+        anim.SetBool("BlockStrike", condition);
+    }
+
+    [Command]
+    void CmdAttacking(bool condition)    //Tell the server to change the Attacking animation
+    {
+        anim.SetBool("Attacking", condition);
+    }
+
+    [Command]
+    void CmdCombo(float condition)    //Tell the server to change the Combo animation
+    {
+        anim.SetFloat("Combo", condition);
+    }
 
     IEnumerator Attacking()
     {
@@ -123,7 +170,7 @@ public class Attack : NetworkBehaviour
             CancelBlock();
             if(TargetManager.target)
                 TargetManager.target.GetComponent<Health>().TookDamage(blockStrikeDamage, true);
-            anim.SetBool("BlockStrike", true);
+            CmdBlockStrike(true);
         }
         else if(blocking && inRange)
         {
@@ -133,8 +180,8 @@ public class Attack : NetworkBehaviour
         }
 
         yield return new WaitForSeconds(attackFrequency);
-        anim.SetBool("Attacking", false);
-        anim.SetBool("BlockStrike", false);
+        CmdAttacking(false);
+        CmdBlockStrike(false);
         attacking = false;
     }
 
@@ -165,13 +212,13 @@ public class Attack : NetworkBehaviour
 
     public void StopAttackAnimation()
     {
-        anim.SetBool("Attacking", false);
+        CmdAttacking(false);
     }
 
     void RunCombo()
     {
-        anim.SetBool("Attacking", true);
-        anim.SetFloat("Combo", comboCount);
+        CmdAttacking(true);
+        CmdCombo(comboCount);
 
         if (combo != null)
             StopCoroutine(combo);
@@ -194,6 +241,6 @@ public class Attack : NetworkBehaviour
     public void CancelBlock()
     {
         blocking = false;
-        anim.SetBool("IsBlocking", false);
+        CmdBlocking(false);
     }
 }

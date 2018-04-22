@@ -1,8 +1,9 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.Networking;
 
-public class Movement : MonoBehaviour
+public class Movement : NetworkBehaviour
 {
  [Header("Movement Variables")]
     public float movementSpeed;
@@ -74,7 +75,6 @@ public class Movement : MonoBehaviour
     {
         moveX = Input.GetAxis("Horizontal");
         moveY = Input.GetAxis("Vertical");
-
         isSprinting = Input.GetKey(KeyCode.LeftShift);
 
         if(isSprinting)
@@ -92,13 +92,13 @@ public class Movement : MonoBehaviour
         {
             attack.CancelBlock();
             isRolling = true;
-            anim.SetTrigger("Roll");
+            CmdRoll();
         }
 
         if(Input.GetKeyDown(KeyCode.LeftControl))
         {
             isCrouching = !isCrouching;
-            anim.SetBool("IsCrouching", isCrouching);
+            CmdCrouching(isCrouching);
 
             if(isCrouching)
             {
@@ -113,15 +113,34 @@ public class Movement : MonoBehaviour
         }
     }
 
+    [Command]
+    void CmdCrouching(bool condition)
+    {
+        anim.SetBool("IsCrouching", condition);
+    }
+
+    [Command]
+    void CmdJumping(bool condition)
+    {
+        anim.SetBool("IsJumping", condition);
+    }
+
+    [Command]
+    void CmdRoll()
+    {
+        anim.SetTrigger("Roll");
+    }
+
     public void CancelCrouch()
     {
         isCrouching = false;
-        anim.SetBool("IsCrouching", false);
+        CmdCrouching(false);
         capsuleCollider.height = colliderHeight;
         capsuleCollider.center = colliderCenter;
     }
 
-    void Animate()
+    [Command]
+    void CmdAnimate()
     {
         CalculateCCSpeed();
         anim.SetFloat("Speed", ccVelocity, animationSmoothing, Time.deltaTime);
@@ -145,7 +164,7 @@ public class Movement : MonoBehaviour
         Jumping();
 
         RecieveInput();
-        Animate();
+        CmdAnimate();
         if ( attack.blocking) return;// landing ||
          Move();
 
@@ -159,7 +178,7 @@ public class Movement : MonoBehaviour
 
         if (isJumping && Grounded() && !waiting)
         {
-            anim.SetBool("IsJumping", false);
+            CmdJumping(false);
 
             isJumping = false;
             landing = true;
@@ -214,7 +233,7 @@ public class Movement : MonoBehaviour
         if (!Grounded()) return;
 
         attack.CancelBlock();
-        anim.SetBool("IsJumping", true);
+        CmdJumping(true);
         jump = jumpForce;
         isJumping = true;
 
